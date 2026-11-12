@@ -1,6 +1,6 @@
 [custom]
 ;不要随意改变关键字，否则会导致出错
-;完整分组版（含 Claude / OpenAI / Gemini / 推特 / 电报 / Spotify / Cloudflare / 成人内容 / 迪士尼 / 谷歌）
+;完整分组版（已修复循环引用）
 
 ;去广告：支持
 ;自动测速：支持
@@ -24,7 +24,7 @@ ruleset=🍎 苹果服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 ruleset=🍏 苹果国际,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AppleTV.list
 ruleset=📲 电报消息,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
 
-; AI 相关（Claude / OpenAI / Gemini / Grok）
+; AI 相关
 ruleset=🤖 Ai平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AI.list
 ruleset=🤖 Ai平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
 ruleset=🤖 Ai平台,[]DOMAIN-SUFFIX,x.ai
@@ -75,10 +75,11 @@ custom_proxy_group=♻️ 自动选择`url-test`.*`https://www.apple.com/library
 custom_proxy_group=🔯 故障转移`fallback`.*`https://www.apple.com/library/test/success.html`300,,80
 custom_proxy_group=🔮 负载均衡`load-balance`.*`https://www.apple.com/library/test/success.html`300,,80
 
-custom_proxy_group=🤖 Ai平台`select`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🚀 节点选择`[]♻️ 自动选择`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]DIRECT
-custom_proxy_group=🤖 Claude`select`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🚀 节点选择`[]♻️ 自动选择`[]🚀 手动切换`[]DIRECT
-custom_proxy_group=🤖 OpenAI`select`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🚀 节点选择`[]♻️ 自动选择`[]🚀 手动切换`[]DIRECT
-custom_proxy_group=✨ Gemini`select`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🚀 节点选择`[]♻️ 自动选择`[]🚀 手动切换`[]DIRECT
+; 注意：Ai平台 里不再包含 🚀 节点选择，避免循环
+custom_proxy_group=🤖 Ai平台`select`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]♻️ 自动选择`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=🤖 Claude`select`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]♻️ 自动选择`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=🤖 OpenAI`select`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]♻️ 自动选择`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=✨ Gemini`select`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]♻️ 自动选择`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=🐦 推特`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=🎵 TikTok`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=🎧 Spotify`select`[]🚀 节点选择`[]♻️ 自动选择`[]DIRECT
@@ -107,7 +108,7 @@ custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
 custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 节点选择`[]♻️ 自动选择
 custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]♻️ 自动选择`[]🚀 手动切换`[]DIRECT
 
-; 地区节点组（已优化测速）
+; 地区节点组
 custom_proxy_group=🇭🇰 香港节点`url-test`(港|HK|hk|Hong Kong|HongKong|hongkong)`https://www.apple.com/library/test/success.html`300,,80
 custom_proxy_group=🇯🇵 日本节点`url-test`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)`https://www.apple.com/library/test/success.html`300,,80
 custom_proxy_group=🇺🇲 美国节点`url-test`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`https://www.apple.com/library/test/success.html`300,,150
