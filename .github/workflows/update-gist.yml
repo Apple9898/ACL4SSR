@@ -26,7 +26,21 @@ jobs:
           SUB_URL: ${{ secrets.SUB_URL }}
           GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
           GIST_ID: ${{ secrets.GIST_ID }}
-        run: python scripts/build_and_update.py
+        run: |
+          python scripts/build_and_update.py
+          cp mihomo_crypto_latest.yaml mihomo_crypto_v3.yaml
+
+      - name: Commit updated config to repo (for jsDelivr CDN)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add mihomo_crypto_v3.yaml
+          git diff --cached --quiet || git commit -m "chore: auto-update mihomo_crypto_v3.yaml (config refresh)"
+          git push origin main
+
+      - name: Purge jsDelivr cache
+        run: |
+          curl -s "https://purge.jsdelivr.net/gh/Apple9898/ACL4SSR@main/mihomo_crypto_v3.yaml" || true
 
       - name: Upload config artifact (for manual download)
         uses: actions/upload-artifact@v4
