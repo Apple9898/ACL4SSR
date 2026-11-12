@@ -153,16 +153,16 @@ def build(sub_url):
 
     g_all = [f"{FLAG['HK']} 香港节点", f"{FLAG['TW']} 台湾节点", f"{FLAG['SG']} 狮城节点",
              f"{FLAG['JP']} 日本节点", f"{FLAG['US']} 美国节点", f"{FLAG['KR']} 韩国节点",
-             "\U0001F30D 自动选择", "\U0001F681 手动切换", "DIRECT"]
+             "\u267B\uFE0F 自动选择", "\U0001F680 手动切换", "DIRECT"]
 
     groups = []
-    groups.append(group("\U0001F681 节点选择", "select", "mini_Static.png", proxies=g_all))
-    groups.append(group("\U0001F681 手动切换", "select", "mini_Available.png", include_all=True))
-    groups.append(group("\U0001F30D 自动选择", "url-test", "qure_Auto.png",
+    groups.append(group("\U0001F680 节点选择", "select", "mini_Static.png", proxies=g_all))
+    groups.append(group("\U0001F680 手动切换", "select", "mini_Available.png", include_all=True))
+    groups.append(group("\u267B\uFE0F 自动选择", "url-test", "qure_Auto.png",
                         url="https://www.gstatic.com/generate_204", interval=300))
-    groups.append(group("\U0001F53F 故障转移", "fallback", "qure_ULB.png",
+    groups.append(group("\U0001F52F 故障转移", "fallback", "qure_ULB.png",
                         url="https://www.gstatic.com/generate_204", interval=300, include_all=True))
-    groups.append(group("\U0001F4AE 负载均衡", "load-balance", "qure_Round_Robin.png",
+    groups.append(group("\U0001F52E 负载均衡", "load-balance", "qure_Round_Robin.png",
                         url="https://www.gstatic.com/generate_204", interval=300, include_all=True))
 
     area = [
@@ -181,7 +181,7 @@ def build(sub_url):
     business_proxies = [f"\U0001F1F8\U0001F1EC 狮城节点", f"\U0001F1EF\U0001F1F5 日本节点",
                         f"\U0001F1ED\U0001F1F0 香港节点", f"\U0001F1F9\U0001F1FC 台湾节点",
                         f"\U0001F1FA\U0001F1F8 美国节点", f"\U0001F1F0\U0001F1F7 韩国节点",
-                        "\U0001F30D 自动选择", "\U0001F681 手动切换", "DIRECT"]
+                        "\u267B\uFE0F 自动选择", "\U0001F680 手动切换", "DIRECT"]
 
     bz = [
         ("\U0001F4B0 数字货币", "qure_Cryptocurrency.png"),
@@ -258,7 +258,7 @@ def build(sub_url):
     return "\n".join(final)
 
 
-def update_gist(content, token, gist_id, filename="mihomo_crypto.yaml"):
+def update_gist(content, token, gist_id, filename="mihomo_crypto_v3.yaml"):
     body = json.dumps({"files": {filename: {"content": content}}}).encode("utf-8")
     req = urllib.request.Request(
         f"https://api.github.com/gists/{gist_id}",
