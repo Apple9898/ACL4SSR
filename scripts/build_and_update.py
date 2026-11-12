@@ -151,15 +151,18 @@ def build(sub_url):
             lines.append(f"    interval: {interval}")
         return "\n".join(lines)
 
-    g_all = [f"{FLAG['HK']} 香港节点", f"{FLAG['TW']} 台湾节点", f"{FLAG['SG']} 狮城节点",
+    # 统一策略顺序: 自动选择 -> 手动切换 -> 国家节点 -> DIRECT
+    # 节点选择组是总入口, 子项: 自动选择/手动切换/国家/DIRECT
+    g_all = ["\u267B\uFE0F 自动选择", "\U0001F680 手动切换",
+             f"{FLAG['HK']} 香港节点", f"{FLAG['TW']} 台湾节点", f"{FLAG['SG']} 狮城节点",
              f"{FLAG['JP']} 日本节点", f"{FLAG['US']} 美国节点", f"{FLAG['KR']} 韩国节点",
-             "\u267B\uFE0F 自动选择", "\U0001F680 手动切换", "DIRECT"]
+             "DIRECT"]
 
     groups = []
     groups.append(group("\U0001F680 节点选择", "select", "mini_Static.png", proxies=g_all))
-    groups.append(group("\U0001F680 手动切换", "select", "mini_Available.png", include_all=True))
     groups.append(group("\u267B\uFE0F 自动选择", "url-test", "qure_Auto.png",
                         url="https://www.gstatic.com/generate_204", interval=300, include_all=True))
+    groups.append(group("\U0001F680 手动切换", "select", "mini_Available.png", include_all=True))
     groups.append(group("\U0001F52F 故障转移", "fallback", "qure_ULB.png",
                         url="https://www.gstatic.com/generate_204", interval=300, include_all=True))
     groups.append(group("\U0001F52E 负载均衡", "load-balance", "qure_Round_Robin.png",
@@ -178,10 +181,12 @@ def build(sub_url):
                             url="https://www.gstatic.com/generate_204", interval=300,
                             include_all=True, filter_=pattern))
 
-    business_proxies = [f"\U0001F1F8\U0001F1EC 狮城节点", f"\U0001F1EF\U0001F1F5 日本节点",
+    # 业务分组统一顺序: 节点选择 -> 自动选择 -> 手动切换 -> 国家 -> DIRECT
+    business_proxies = ["\U0001F680 节点选择", "\u267B\uFE0F 自动选择", "\U0001F680 手动切换",
                         f"\U0001F1ED\U0001F1F0 香港节点", f"\U0001F1F9\U0001F1FC 台湾节点",
+                        f"\U0001F1F8\U0001F1EC 狮城节点", f"\U0001F1EF\U0001F1F5 日本节点",
                         f"\U0001F1FA\U0001F1F8 美国节点", f"\U0001F1F0\U0001F1F7 韩国节点",
-                        "\u267B\uFE0F 自动选择", "\U0001F680 手动切换", "DIRECT"]
+                        "DIRECT"]
 
     bz = [
         ("\U0001F4B0 数字货币", "qure_Cryptocurrency.png"),
@@ -258,6 +263,22 @@ def build(sub_url):
     return "\n".join(final)
 
 
+def get_gist_content(token, gist_id, filename):
+    """读 gist 当前文件内容，用于对比（避免无变化时重复更新）"""
+    req = urllib.request.Request(
+        f"https://api.github.com/gists/{gist_id}",
+        headers={
+            "Authorization": f"token {token}",
+            "User-Agent": "qwenpaw-gist-updater",
+            "Accept": "application/vnd.github+json",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=60) as resp:
+        gist = json.loads(resp.read().decode("utf-8"))
+    fmeta = gist.get("files", {}).get(filename, {})
+    return fmeta.get("content", "")
+
+
 def update_gist(content, token, gist_id, filename="mihomo_crypto_v3.yaml"):
     body = json.dumps({"files": {filename: {"content": content}}}).encode("utf-8")
     req = urllib.request.Request(
@@ -279,6 +300,7 @@ def main():
     sub_url = os.environ.get("SUB_URL", "")
     token = os.environ.get("GIST_TOKEN", "")
     gist_id = os.environ.get("GIST_ID", "")
+    filename = os.environ.get("GIST_FILENAME", "mihomo_crypto_v3.yaml")
     if not sub_url:
         print("缺少 SUB_URL 环境变量")
         sys.exit(1)
@@ -290,9 +312,14 @@ def main():
         f.write(content)
 
     if token and gist_id:
-        resp = update_gist(content, token, gist_id)
-        print(f"gist 已更新: https://gist.github.com/Apple9898/{gist_id}")
+        old = get_gist_content(token, gist_id, filename)
+        if old == content:
+            print("内容无变化，跳过更新")
+        else:
+            resp = update_gist(content, token, gist_id, filename)
+            print(f"gist 已更新: https://gist.github.com/Apple9898/{gist_id}")
     else:
+        print("未提供 GIST_TOKEN/GIST_ID，仅本地生成 mihomo_crypto_latest.yaml")
         print("未提供 GIST_TOKEN/GIST_ID，仅本地生成 mihomo_crypto_latest.yaml")
 
 

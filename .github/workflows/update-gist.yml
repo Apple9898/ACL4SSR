@@ -2,8 +2,9 @@ name: Update Crypto Gist
 
 on:
   schedule:
-    # 每 6 小时更新一次（UTC），北京时间约 02:00/08:00/14:00/20:00
-    - cron: "0 */6 * * *"
+    # 每小时检查一次（UTC），订阅节点变化后最多 1 小时内 gist 跟进更新
+    # 内容无变化时脚本会自动跳过，不会产生无意义提交
+    - cron: "0 * * * *"
   workflow_dispatch: # 仓库 Actions 页面可手动触发
   push:
     branches: [main]
