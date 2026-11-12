@@ -157,3 +157,49 @@ url-test
 LocalAreaNetwork.list 使用 DIRECT
 
 移除 Download.list
+
+---
+
+## 🔶 彩色图标（Clash Verge 自动注入）
+
+本仓库自带一套彩色图标资源，Clash Verge Rev 订阅后可通过脚本**自动**为代理分组打上彩色图标，无需手动一个个填。
+
+资源清单：
+
+- `icons/` — 41 张彩色 PNG（国家/货币/AI/App/媒体等）
+- `clash.icons.js` — 图标自动注入脚本（按分组名精确匹配 + 关键词兜底，改名也不易丢图标）
+
+### 使用方法（Clash Verge Rev）
+
+1. 正常导入订阅（节点来源不变）
+2. 订阅 → 右键该订阅 → **编辑增强配置** → 新增 **Script（脚本）** 类型增强，URL 填：
+
+国内推荐（jsDelivr CDN，快）：
+
+```
+https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/clash.icons.js
+```
+
+备选（GitHub 直链）：
+
+```
+https://raw.githubusercontent.com/Apple9898/ACL4SSR/main/clash.icons.js
+```
+
+3. 更新订阅 → 分组自动显示彩色图标 ✅
+
+### 支持范围
+
+- **Clash Verge Rev / Mihomo**：支持，见上方脚本方式
+- **Stash / Surge / Loon**：支持 icon 字段，直接把 `icons/` 里的 PNG 地址填进对应分组的 icon：
+  `https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/xxx.png`
+- **Shadowrocket（小火箭）**：不支持图片图标，使用分组名自带 emoji（分组名本身就是彩色 emoji）
+
+### 图标文件命名规则
+
+- `mini_` 前缀：Orz-3/mini 图标集（地区、常用服务）
+- `qure_` 前缀：Koolson/Qure 图标集（AI、媒体、功能类）
+- `sins_` 前缀：sinspired/proxy-rules 图标集（Claude、Gemini、Spotify 专属）
+- `x_twitter.png`：X/Twitter 图标
+
+单张图标直链示例：`https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_Cryptocurrency.png`
