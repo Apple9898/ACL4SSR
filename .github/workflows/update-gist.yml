@@ -1,0 +1,35 @@
+name: Update Crypto Gist
+
+on:
+  schedule:
+    # 每 6 小时更新一次（UTC），北京时间约 02:00/08:00/14:00/20:00
+    - cron: "0 */6 * * *"
+  workflow_dispatch: # 仓库 Actions 页面可手动触发
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build_and_update.py"
+
+jobs:
+  build-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build config and update gist
+        env:
+          SUB_URL: ${{ secrets.SUB_URL }}
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_ID }}
+        run: python scripts/build_and_update.py
+
+      - name: Upload config artifact (for manual download)
+        uses: actions/upload-artifact@v4
+        with:
+          name: mihomo_crypto_latest
+          path: mihomo_crypto_latest.yaml
+          if-no-files-found: error
