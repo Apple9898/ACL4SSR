@@ -1,270 +1,152 @@
 # -*- coding: utf-8 -*-
 """
-自动构建并更新 gist 配置
+自动构建并更新 gist 配置 —— 基于机场提供的完整 Clash 配置，只注入彩色图标。
+
+关键修复(2026-11-13)：
+  之前用默认 UA 拉裸 vless 列表，自己手工转换 -> 丢失 DNS 等关键配置 -> 订阅后无法上网。
+  现在改为：用 clash-verge UA 拉取机场下发的"完整 Clash 配置"（自带 dns/proxies/
+  proxy-groups/rules/rule-providers），脚本只做一件事：给每个 proxy-group 注入 icon。
+  这样源头正确，自动更新不会再生成坏配置。
+
 用法(本地): python scripts/build_and_update.py  (需环境变量 SUB_URL)
 用法(Action): 由 update-gist.yml 调用
 环境变量:
   SUB_URL    机场订阅地址 (必填)
   GIST_TOKEN 有 gist scope 的 PAT (提供则更新 gist)
   GIST_ID    gist id (与 GIST_TOKEN 一起提供则更新)
+  GIST_FILENAME  gist 中的文件名 (默认 mihomo_crypto_v3.yaml)
 """
 import os
 import sys
 import json
 import urllib.request
-import urllib.parse
-import re
-from collections import defaultdict
+import io
+
+import yaml
 
 BASE = "https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/"
 
-FLAG = {
-    "SG": "\U0001F1F8\U0001F1EC",  # 🇸🇬
-    "HK": "\U0001F1ED\U0001F1F0",  # 🇭🇰
-    "TW": "\U0001F1F9\U0001F1FC",  # 🇹🇼
-    "JP": "\U0001F1EF\U0001F1F5",  # 🇯🇵
-    "US": "\U0001F1FA\U0001F1F8",  # 🇺🇸
-    "KR": "\U0001F1F0\U0001F1F7",  # 🇰🇷
+# 分组名 -> 图标文件（与 clash.icons.js 中 EXACT 映射一致）
+ICON_MAP = {
+    "🚀 节点选择": "mini_Static.png",
+    "🚀 手动切换": "mini_Available.png",
+    "♻️ 自动选择": "qure_Auto.png",
+    "🔯 故障转移": "qure_ULB.png",
+    "🔮 负载均衡": "qure_Round_Robin.png",
+    "💰 数字货币": "btc.png",
+    "🤖 Ai平台": "qure_AI.png",
+    "🤖 Claude": "sins_Claude.png",
+    "🤖 OpenAI": "mini_OpenAI.png",
+    "✨ Gemini": "sins_Gemini.png",
+    "🐦 推特": "x_twitter.png",
+    "🎵 TikTok": "qure_TikTok.png",
+    "🎧 Spotify": "sins_Spotify.png",
+    "🎶 网易音乐": "qure_Music.png",
+    "🎮 游戏平台": "qure_Game.png",
+    "▶️ 油管视频": "qure_YouTube.png",
+    "🎥 奈飞视频": "mini_Netflix.png",
+    "🏰 迪士尼": "qure_Disney.png",
+    "🔍 谷歌": "mini_Google.png",
+    "☁️ Cloudflare": "qure_Cloudflare.png",
+    "📺 巴哈姆特": "qure_Bahamut.png",
+    "📺 哔哩哔哩": "qure_bilibili.png",
+    "📢 谷歌FCM": "mini_Google.png",
+    "Ⓜ️ 微软Bing": "mini_Bing.png",
+    "Ⓜ️ 微软云盘": "qure_Microsoft.png",
+    "Ⓜ️ 微软服务": "qure_Microsoft.png",
+    "🍎 苹果服务": "qure_Apple.png",
+    "🍏 苹果国际": "qure_Apple.png",
+    "🌍 国外媒体": "qure_ForeignMedia.png",
+    "🌏 国内媒体": "qure_China.png",
+    "🔞 成人内容": "qure_Heart.png",
+    "🛑 广告拦截": "qure_AdBlack.png",
+    "🍃 应用净化": "qure_Filter.png",
+    "🎯 全球直连": "qure_China.png",
+    "🐟 漏网之鱼": "qure_Final.png",
+    "🇭🇰 香港节点": "mini_HK.png",
+    "🇯🇵 日本节点": "mini_JP.png",
+    "🇺🇲 美国节点": "mini_US.png",
+    "🇨🇳 台湾节点": "mini_TW.png",
+    "🇸🇬 狮城节点": "mini_SG.png",
+    "🇰🇷 韩国节点": "mini_KR.png",
+    "🔞 成人内容": "qure_Heart.png",
+    "🛑 广告拦截": "qure_AdBlack.png",
 }
 
+# 兜底: 关键词 -> 图标（无精确匹配时）
+KEYWORD_ICON = [
+    ("币", "btc.png"),
+    ("加密", "btc.png"),
+    ("数字货币", "btc.png"),
+    ("AI", "qure_AI.png"),
+    ("Claude", "sins_Claude.png"),
+    ("Gemini", "sins_Gemini.png"),
+    ("Telegram", "mini_Telegram.png"),
+    ("电报", "mini_Telegram.png"),
+    ("YouTube", "qure_YouTube.png"),
+    ("油管", "qure_YouTube.png"),
+    ("Netflix", "mini_Netflix.png"),
+    ("奈飞", "mini_Netflix.png"),
+    ("Disney", "qure_Disney.png"),
+    ("Spotify", "sins_Spotify.png"),
+    ("TikTok", "qure_TikTok.png"),
+    ("推特", "x_twitter.png"),
+    ("Twitter", "x_twitter.png"),
+    ("谷歌", "mini_Google.png"),
+    ("Cloudflare", "qure_Cloudflare.png"),
+    ("DIRECT", "qure_Direct.png"),
+]
 
-def fetch_nodes(url):
+
+def fetch_full_config(url):
+    """用 clash-verge UA 拉取完整 Clash 配置（不是裸 vless）"""
     req = urllib.request.Request(
         url,
-        headers={"User-Agent": "Mozilla/5.0 (qwenpaw gist-updater)"},
+        headers={"User-Agent": "clash-verge/v2.4.5"},
     )
     with urllib.request.urlopen(req, timeout=60) as resp:
         return resp.read().decode("utf-8", errors="replace")
 
 
-def parse_vless(line):
-    line = line.strip()
-    if "vless://" not in line:
+def pick_icon(name):
+    if not name:
         return None
-    body = line[len("vless://"):]
-    if "#" in body:
-        head, name = body.split("#", 1)
-        name = urllib.parse.unquote(name)
-    else:
-        head, name = body, ""
-    if "@" not in head:
-        return None
-    uuid, server = head.split("@", 1)
-    params = {}
-    if ":" in server:
-        host, port = server.rsplit(":", 1)
-        if "?" in port:
-            port, query = port.split("?", 1)
-            for kv in query.split("&"):
-                if "=" in kv:
-                    k, v = kv.split("=", 1)
-                    params[k] = urllib.parse.unquote(v)
-        port = int(port)
-    else:
-        host, port = server, 443
-    uuid = uuid.strip("/")
-    return {
-        "name": name,
-        "type": "vless",
-        "server": host,
-        "port": port,
-        "uuid": uuid,
-        "udp": True,
-        "tls": params.get("security", "").lower() in ("tls", "reality"),
-        "network": params.get("type", "tcp"),
-        "sni": params.get("sni", ""),
-        "host": params.get("host", ""),
-        "path": params.get("path", ""),
-        "flow": params.get("flow", ""),
-        "fp": params.get("fp", "chrome"),
-    }
-
-
-def country_code(node_name):
-    m = re.match(r"^([A-Za-z]{2})", node_name)
-    return m.group(1).upper() if m else ""
-
-
-def to_clash_yaml(node):
-    lines = [f"  - name: {node['name']}", "    type: vless",
-             f"    server: {node['server']}", f"    port: {node['port']}",
-             f"    uuid: {node['uuid']}", "    udp: true"]
-    if node["tls"]:
-        lines.append("    tls: true")
-    if node.get("sni"):
-        lines.append(f"    servername: {node['sni']}")
-    if node.get("fp"):
-        lines.append(f"    client-fingerprint: {node['fp']}")
-    if node["network"] == "ws":
-        lines.append("    network: ws")
-        lines.append("    ws-opts:")
-        lines.append(f"      path: \"{node.get('path') or '/'}\"")
-        if node.get("host"):
-            lines.append("      headers:")
-            lines.append(f"        Host: {node['host']}")
-    elif node["network"] == "grpc":
-        lines.append("    network: grpc")
-        lines.append("    grpc-opts:")
-        lines.append(f"      grpc-service-name: {node.get('path','').lstrip('/')}")
-    else:
-        lines.append(f"    network: {node['network']}")
-    return "\n".join(lines)
+    n = name.strip()
+    if n == "DIRECT":
+        return "qure_Direct.png"
+    if n in ICON_MAP:
+        return ICON_MAP[n]
+    for kw, icon in KEYWORD_ICON:
+        if kw in n:
+            return icon
+    return None
 
 
 def build(sub_url):
-    raw = fetch_nodes(sub_url)
-    nodes = []
-    for line in raw.splitlines():
-        n = parse_vless(line)
-        if n:
-            nodes.append(n)
-    if not nodes:
-        raise RuntimeError("未解析到任何节点")
+    """以完整配置为基础，仅注入 icon"""
+    raw = fetch_full_config(sub_url)
+    data = yaml.safe_load(raw)
+    if not data or "proxies" not in data:
+        raise RuntimeError("未获取到完整配置或缺少 proxies")
 
-    counter = defaultdict(int)
-    for n in nodes:
-        cc = country_code(n["name"])
-        if cc in FLAG:
-            counter[cc] += 1
-            idx = counter[cc]
-            n["name"] = f"{FLAG[cc]} {cc}" if idx == 1 else f"{FLAG[cc]} {cc} {idx}"
-        else:
-            counter[n["name"]] += 1
-            idx = counter[n["name"]]
-            n["name"] = n["name"] if idx == 1 else f"{n['name']} {idx}"
+    groups = data.get("proxy-groups", []) or []
+    injected = 0
+    for g in groups:
+        if not isinstance(g, dict):
+            continue
+        icon_file = pick_icon(g.get("name", ""))
+        if icon_file:
+            g["icon"] = BASE + icon_file
+            injected += 1
 
-    proxies_yml = "\n".join(to_clash_yaml(n) for n in nodes)
+    print(f"完整配置: {len(data.get('proxies', []))} 节点, {len(groups)} 分组, 注入 {injected} 个图标")
 
-    def group(name, gtype, icon, *, proxies=None, url=None, interval=300,
-              include_all=False, filter_=None):
-        lines = [f"  - name: {name}", f"    type: {gtype}", f"    icon: {BASE}{icon}"]
-        if include_all:
-            lines.append("    include-all: true")
-        if filter_:
-            lines.append(f"    filter: {filter_}")
-        if proxies:
-            lines.append("    proxies:")
-            for p in proxies:
-                lines.append(f"      - {p}")
-        if url:
-            lines.append(f"    url: {url}")
-            lines.append(f"    interval: {interval}")
-        return "\n".join(lines)
-
-    # 统一策略顺序: 自动选择 -> 手动切换 -> 国家节点 -> DIRECT
-    # 节点选择组是总入口, 子项: 自动选择/手动切换/国家/DIRECT
-    g_all = ["\u267B\uFE0F 自动选择", "\U0001F680 手动切换",
-             f"{FLAG['HK']} 香港节点", f"{FLAG['TW']} 台湾节点", f"{FLAG['SG']} 狮城节点",
-             f"{FLAG['JP']} 日本节点", f"{FLAG['US']} 美国节点", f"{FLAG['KR']} 韩国节点",
-             "DIRECT"]
-
-    groups = []
-    groups.append(group("\U0001F680 节点选择", "select", "mini_Static.png", proxies=g_all))
-    groups.append(group("\u267B\uFE0F 自动选择", "url-test", "qure_Auto.png",
-                        url="https://www.gstatic.com/generate_204", interval=300, include_all=True))
-    groups.append(group("\U0001F680 手动切换", "select", "mini_Available.png", include_all=True))
-    groups.append(group("\U0001F52F 故障转移", "fallback", "qure_ULB.png",
-                        url="https://www.gstatic.com/generate_204", interval=300, include_all=True))
-    groups.append(group("\U0001F52E 负载均衡", "load-balance", "qure_Round_Robin.png",
-                        url="https://www.gstatic.com/generate_204", interval=300, include_all=True))
-
-    area = [
-        ("\U0001F1ED\U0001F1F0 香港节点", "mini_HK.png", "(?i)HK|香港|港"),
-        ("\U0001F1F9\U0001F1FC 台湾节点", "mini_TW.png", "(?i)TW|台湾|台"),
-        ("\U0001F1F8\U0001F1EC 狮城节点", "mini_SG.png", "(?i)SG|新加坡|狮城"),
-        ("\U0001F1EF\U0001F1F5 日本节点", "mini_JP.png", "(?i)JP|日本"),
-        ("\U0001F1FA\U0001F1F8 美国节点", "mini_US.png", "(?i)US|美国"),
-        ("\U0001F1F0\U0001F1F7 韩国节点", "mini_KR.png", "(?i)KR|韩国"),
-    ]
-    for name, icon, pattern in area:
-        groups.append(group(name, "url-test", icon,
-                            url="https://www.gstatic.com/generate_204", interval=300,
-                            include_all=True, filter_=pattern))
-
-    # 业务分组统一顺序: 节点选择 -> 自动选择 -> 手动切换 -> 国家 -> DIRECT
-    business_proxies = ["\U0001F680 节点选择", "\u267B\uFE0F 自动选择", "\U0001F680 手动切换",
-                        f"\U0001F1ED\U0001F1F0 香港节点", f"\U0001F1F9\U0001F1FC 台湾节点",
-                        f"\U0001F1F8\U0001F1EC 狮城节点", f"\U0001F1EF\U0001F1F5 日本节点",
-                        f"\U0001F1FA\U0001F1F8 美国节点", f"\U0001F1F0\U0001F1F7 韩国节点",
-                        "DIRECT"]
-
-    bz = [
-        ("\U0001F4B0 数字货币", "qure_Cryptocurrency.png"),
-        ("\U0001F916 Ai平台", "qure_AI.png"),
-        ("\U0001F916 Claude", "sins_Claude.png"),
-        ("\U0001F916 OpenAI", "mini_OpenAI.png"),
-        ("\u2728 Gemini", "sins_Gemini.png"),
-        ("\U0001F4F2 电报消息", "mini_Telegram.png"),
-        ("\u25B6\uFE0F 油管视频", "qure_YouTube.png"),
-        ("\U0001F3A5 奈飞视频", "mini_Netflix.png"),
-        ("\U0001F3F0 迪士尼", "qure_Disney.png"),
-        ("\U0001F3A7 Spotify", "sins_Spotify.png"),
-        ("\U0001F3B5 TikTok", "qure_TikTok.png"),
-        ("\U0001F426 推特", "x_twitter.png"),
-        ("\U0001F50D 谷歌", "mini_Google.png"),
-        ("\u2601\uFE0F Cloudflare", "qure_Cloudflare.png"),
-        ("\U0001F34E 苹果服务", "qure_Apple.png"),
-        ("\U0001F30D 国外媒体", "qure_ForeignMedia.png"),
-        ("\U0001F30F 国内媒体", "qure_China.png"),
-        ("\U0001F51E 成人内容", "qure_Heart.png"),
-        ("\U0001F6D1 广告拦截", "qure_AdBlack.png"),
-        ("\U0001F3AF 全球直连", "qure_Direct.png"),
-        ("\U0001F41F 漏网之鱼", "qure_Final.png"),
-    ]
-    for name, icon in bz:
-        groups.append(group(name, "select", icon, proxies=business_proxies))
-
-    groups_yml = "\n".join(groups)
-
-    crypto_domains = [
-        "binance.com","binance.us","binance.org","binancezh.cc","bnappzh.com","bnappzh.co","bnbstatic.com","bntrace.com",
-        "okx.com","okex.com","bybit.com","bybit.me","bybit.uk","gate.io","coinbase.com","coinbase.us","kraken.com",
-        "kucoin.com","bitfinex.com","bitstamp.net","bitmex.com","htx.com","htx.me","huobi.com","huobi.me",
-        "bitget.com","bitget.global","bitget.im","mexc.com","mexc.global","mexc.io","bingx.com","bingx.net",
-        "bitmart.com","phemex.com","deribit.com","crypto.com","gemini.com","bitflyer.com","bitbank.cc","coincheck.com",
-        "upbit.com","bithumb.com","korbit.co.kr","coinone.co.kr","zb.com","aex.com","bibox.com","liquid.com",
-        "poloniex.com","ftx.com","okcoin.com","coinw.com","lbank.com","xt.com","woo.network","dydx.exchange",
-        "dydx.trade","bitrue.com","coinex.com","ascendex.com","whitebit.com","digifinex.com","bitpanda.com",
-        "bit2me.com","bitso.com","mercadobitcoin.com.br","metamask.io","trustwallet.com","blockchain.com",
-        "debank.com","etherscan.io","coingecko.com","coinmarketcap.com","bitcointalk.org","aicoin.com","bitunix.com",
-        "bitunix.io","bitunix",
-    ]
-    rules_yml = "\n".join(f"  - DOMAIN-SUFFIX,{d},\U0001F4B0 数字货币" for d in crypto_domains)
-    rules_yml += "\n".join([
-        "", "  - DOMAIN-KEYWORD,bitunix,\U0001F4B0 数字货币",
-        "  - DOMAIN-KEYWORD,binance,\U0001F4B0 数字货币",
-        "  - DOMAIN-KEYWORD,bybit,\U0001F4B0 数字货币",
-        "  - DOMAIN-KEYWORD,okx,\U0001F4B0 数字货币",
-        "  - DOMAIN-KEYWORD,crypto,\U0001F4B0 数字货币",
-    ])
-
-    final = [
-        "# Mihomo config: cryptos exchanges + colored icons",
-        "# nodes auto-updated by GitHub Actions",
-        f"# source: {sub_url}",
-        "# icons: https://github.com/Apple9898/ACL4SSR",
-        "",
-        "proxies:",
-        proxies_yml,
-        "",
-        "proxy-groups:",
-        groups_yml,
-        "",
-        "rules:",
-        "  - GEOSITE,private,DIRECT",
-        "  - GEOIP,private,DIRECT",
-        "  - GEOSITE,category-ads-all,\U0001F6D1 广告拦截",
-        rules_yml,
-        "  - GEOSITE,cn,\U0001F3AF 全球直连",
-        "  - GEOIP,cn,\U0001F3AF 全球直连",
-        f"  - MATCH,\U0001F41F 漏网之鱼",
-        "",
-    ]
-    return "\n".join(final)
+    out = io.StringIO()
+    yaml.safe_dump(data, out, allow_unicode=True, sort_keys=False, default_flow_style=False)
+    return out.getvalue()
 
 
 def get_gist_content(token, gist_id, filename):
-    """读 gist 当前文件内容，用于对比（避免无变化时重复更新）"""
     req = urllib.request.Request(
         f"https://api.github.com/gists/{gist_id}",
         headers={
@@ -275,8 +157,7 @@ def get_gist_content(token, gist_id, filename):
     )
     with urllib.request.urlopen(req, timeout=60) as resp:
         gist = json.loads(resp.read().decode("utf-8"))
-    fmeta = gist.get("files", {}).get(filename, {})
-    return fmeta.get("content", "")
+    return gist.get("files", {}).get(filename, {}).get("content", "")
 
 
 def update_gist(content, token, gist_id, filename="mihomo_crypto_v3.yaml"):
@@ -319,7 +200,6 @@ def main():
             resp = update_gist(content, token, gist_id, filename)
             print(f"gist 已更新: https://gist.github.com/Apple9898/{gist_id}")
     else:
-        print("未提供 GIST_TOKEN/GIST_ID，仅本地生成 mihomo_crypto_latest.yaml")
         print("未提供 GIST_TOKEN/GIST_ID，仅本地生成 mihomo_crypto_latest.yaml")
 
 
