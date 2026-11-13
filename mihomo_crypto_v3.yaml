@@ -1455,6 +1455,7 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
     icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_Auto.png
+    include-all: true
     url: https://www.gstatic.com/generate_204
     interval: 300
   - name: 🔯 故障转移
