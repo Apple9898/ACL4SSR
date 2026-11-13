@@ -1,4 +1,4 @@
-﻿[custom]
+[custom]
 ;不要随意改变关键字，否则会导致出错
 ;每个分组都带完整国家节点
 
@@ -170,8 +170,8 @@ ruleset=💰 数字货币,[]DOMAIN-SUFFIX,bitunix.io
 ruleset=🐟 漏网之鱼,[]FINAL
 
 ;设置分组标志位
-custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]🔯 故障转移`[]🔮 负载均衡`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]DIRECT
-custom_proxy_group=🚀 手动切换`select`.*
+custom_proxy_group=🚀 节点选择`fallback`[]♻️ 自动选择`[]🔯 故障转移`[]🔮 负载均衡`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]DIRECT`https://www.apple.com/library/test/success.html`300,,150
+custom_proxy_group=🚀 手动切换`fallback`.*`https://www.apple.com/library/test/success.html`300,,150
 custom_proxy_group=♻️ 自动选择`url-test`.*`https://www.apple.com/library/test/success.html`300,,80
 custom_proxy_group=🔯 故障转移`fallback`.*`https://www.apple.com/library/test/success.html`300,,80
 custom_proxy_group=🔮 负载均衡`load-balance`.*`https://www.apple.com/library/test/success.html`300,,80
@@ -207,7 +207,7 @@ custom_proxy_group=💰 数字货币`select`[]🇸🇬 狮城节点`[]🇭🇰 �
 custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
 custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇰🇷 韩国节点`[]♻️ 自动选择
-custom_proxy_group=🐟 漏网之鱼`select`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇰🇷 韩国节点`[]♻️ 自动选择`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=🐟 漏网之鱼`fallback`[]♻️ 自动选择`[]🔯 故障转移`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]DIRECT`https://www.apple.com/library/test/success.html`300,,150
 
 ; 地区节点组
 custom_proxy_group=🇭🇰 香港节点`url-test`(港|HK|hk|Hong Kong|HongKong|hongkong)`https://www.apple.com/library/test/success.html`300,,80
@@ -221,4 +221,3 @@ enable_rule_generator=true
 overwrite_original_rules=true
 
 ;luck
-
