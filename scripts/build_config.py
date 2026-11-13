@@ -154,7 +154,7 @@ def main():
     groups.append(group("\U0001F680 节点选择", "select", "mini_Static.png", proxies=g_all))
     groups.append(group("\U0001F680 手动切换", "select", "mini_Available.png", include_all=True))
     groups.append(group("\u267B\uFE0F 自动选择", "url-test", "qure_Auto.png",
-                        url="https://www.gstatic.com/generate_204", interval=300))
+                        url="https://www.gstatic.com/generate_204", interval=300, include_all=True))
     groups.append(group("\U0001F52F 故障转移", "fallback", "qure_ULB.png",
                         url="https://www.gstatic.com/generate_204", interval=300, include_all=True))
     groups.append(group("\U0001F52E 负载均衡", "load-balance", "qure_Round_Robin.png",
