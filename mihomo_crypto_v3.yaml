@@ -1,1879 +1,1882 @@
-# Mihomo config: cryptos exchanges + colored icons
-# nodes from edge.raysol.dpdns.org (edgetunel)
-# icons: https://github.com/Apple9898/ACL4SSR
-
 proxies:
-  - name: 🇭🇰 HK
-    type: vless
-    server: 38.55.192.142
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇭🇰 HK 2
-    type: vless
-    server: 149.104.5.141
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇭🇰 HK 3
-    type: vless
-    server: 122.10.119.252
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇭🇰 HK 4
-    type: vless
-    server: 43.161.253.137
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇭🇰 HK 5
-    type: vless
-    server: 103.143.81.178
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇭🇰 HK 6
-    type: vless
-    server: 103.143.81.222
-    port: 2053
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇭🇰 HK 7
-    type: vless
-    server: 167.148.203.70
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇭🇰 HK 8
-    type: vless
-    server: 45.136.12.128
-    port: 8443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇭🇰 HK 9
-    type: vless
-    server: 58.176.95.46
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇭🇰 HK 10
-    type: vless
-    server: 172.67.193.64
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇭🇰 HK 11
-    type: vless
-    server: 104.21.46.45
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇭🇰 HK 12
-    type: vless
-    server: 104.18.20.9
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇭🇰 HK 13
-    type: vless
-    server: 104.26.9.254
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇭🇰 HK 14
-    type: vless
-    server: 2.27.132.136
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇭🇰 HK 15
-    type: vless
-    server: 172.67.76.219
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇭🇰 HK 16
-    type: vless
-    server: 2.27.109.236
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇭🇰 HK 17
-    type: vless
-    server: 172.67.202.171
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇭🇰 HK 18
-    type: vless
-    server: 104.21.35.108
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇭🇰 HK 19
-    type: vless
-    server: 172.67.195.204
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇭🇰 HK 20
-    type: vless
-    server: 2.27.109.35
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇹🇼 TW
-    type: vless
-    server: 140.115.53.51
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇹🇼 TW 2
-    type: vless
-    server: 140.235.39.162
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇹🇼 TW 3
-    type: vless
-    server: 83.147.15.84
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇹🇼 TW 4
-    type: vless
-    server: 141.11.86.150
-    port: 8443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇯🇵 JP
-    type: vless
-    server: 103.68.223.47
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇯🇵 JP 2
-    type: vless
-    server: 177.2.187.28
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇯🇵 JP 3
-    type: vless
-    server: 69.8.131.28
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇯🇵 JP 4
-    type: vless
-    server: 175.41.232.194
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇯🇵 JP 5
-    type: vless
-    server: 13.115.139.162
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇯🇵 JP 6
-    type: vless
-    server: 3.112.67.101
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇯🇵 JP 7
-    type: vless
-    server: 13.114.101.22
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇯🇵 JP 8
-    type: vless
-    server: 52.197.247.0
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇯🇵 JP 9
-    type: vless
-    server: 13.231.172.130
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇯🇵 JP 10
-    type: vless
-    server: 162.4.194.35
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇯🇵 JP 11
-    type: vless
-    server: 103.201.130.126
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇯🇵 JP 12
-    type: vless
-    server: 45.8.173.253
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇯🇵 JP 13
-    type: vless
-    server: 45.78.58.239
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇯🇵 JP 14
-    type: vless
-    server: 154.19.187.141
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇯🇵 JP 15
-    type: vless
-    server: 154.19.187.5
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇯🇵 JP 16
-    type: vless
-    server: 14.137.235.154
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇯🇵 JP 17
-    type: vless
-    server: 126.217.78.118
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇯🇵 JP 18
-    type: vless
-    server: 60.130.209.253
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇯🇵 JP 19
-    type: vless
-    server: 74.113.96.69
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇯🇵 JP 20
-    type: vless
-    server: 156.154.245.83
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇺🇸 US
-    type: vless
-    server: 8.134.220.58
-    port: 8443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇺🇸 US 2
-    type: vless
-    server: 8.217.117.88
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇺🇸 US 3
-    type: vless
-    server: 47.57.181.17
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇺🇸 US 4
-    type: vless
-    server: 220.118.83.101
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇺🇸 US 5
-    type: vless
-    server: 188.255.157.177
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇺🇸 US 6
-    type: vless
-    server: 68.166.252.14
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇺🇸 US 7
-    type: vless
-    server: 192.6.161.42
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇺🇸 US 8
-    type: vless
-    server: 154.9.243.154
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇺🇸 US 9
-    type: vless
-    server: 179.255.136.73
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇺🇸 US 10
-    type: vless
-    server: 179.253.241.115
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇺🇸 US 11
-    type: vless
-    server: 179.255.101.54
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇺🇸 US 12
-    type: vless
-    server: 179.255.123.207
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇺🇸 US 13
-    type: vless
-    server: 179.255.103.81
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇺🇸 US 14
-    type: vless
-    server: 216.36.80.137
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇺🇸 US 15
-    type: vless
-    server: 23.246.154.17
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇺🇸 US 16
-    type: vless
-    server: 154.17.16.219
-    port: 8443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇺🇸 US 17
-    type: vless
-    server: 45.59.128.171
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇺🇸 US 18
-    type: vless
-    server: 131.143.180.91
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇺🇸 US 19
-    type: vless
-    server: 179.255.115.39
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇺🇸 US 20
-    type: vless
-    server: 179.255.127.43
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇰🇷 KR
-    type: vless
-    server: 123.111.169.70
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇰🇷 KR 2
-    type: vless
-    server: 140.245.70.145
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇰🇷 KR 3
-    type: vless
-    server: 140.238.8.92
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇰🇷 KR 4
-    type: vless
-    server: 131.186.16.166
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇰🇷 KR 5
-    type: vless
-    server: 132.145.81.117
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇰🇷 KR 6
-    type: vless
-    server: 193.122.119.241
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇰🇷 KR 7
-    type: vless
-    server: 193.122.115.184
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇰🇷 KR 8
-    type: vless
-    server: 131.186.25.156
-    port: 2087
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇰🇷 KR 9
-    type: vless
-    server: 152.70.237.30
-    port: 8443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇰🇷 KR 10
-    type: vless
-    server: 152.70.253.44
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇰🇷 KR 11
-    type: vless
-    server: 146.56.188.74
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇰🇷 KR 12
-    type: vless
-    server: 193.123.236.206
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇰🇷 KR 13
-    type: vless
-    server: 132.145.91.135
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇰🇷 KR 14
-    type: vless
-    server: 152.70.253.84
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇰🇷 KR 15
-    type: vless
-    server: 158.247.220.241
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇰🇷 KR 16
-    type: vless
-    server: 130.94.29.155
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇰🇷 KR 17
-    type: vless
-    server: 64.176.230.50
-    port: 443
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇰🇷 KR 18
-    type: vless
-    server: 141.164.44.60
-    port: 2053
-    uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
-    udp: true
-    tls: true
-    servername: emdd.deepseekhermes.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: emdd.deepseekhermes.dpdns.org
-  - name: 🇸🇬 SG
-    type: vless
-    server: icook.tw
-    port: 443
-    uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
-    udp: true
-    tls: true
-    servername: 9898singbbox.btcethxx.dpdns.org
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: "/sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws"
-      headers:
-        Host: 9898singbbox.btcethxx.dpdns.org
-  - name: 🇸🇬 SG 2
-    type: vless
-    server: malaysia.com
-    port: 443
-    uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
-    udp: true
-    tls: true
-    servername: 9898singbbox.btcethxx.dpdns.org
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: "/sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws"
-      headers:
-        Host: 9898singbbox.btcethxx.dpdns.org
-  - name: 🇸🇬 SG 3
-    type: vless
-    server: japan.com
-    port: 443
-    uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
-    udp: true
-    tls: true
-    servername: 9898singbbox.btcethxx.dpdns.org
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: "/sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws"
-      headers:
-        Host: 9898singbbox.btcethxx.dpdns.org
-  - name: 🇸🇬 SG 4
-    type: vless
-    server: cf.0sm.com
-    port: 443
-    uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
-    udp: true
-    tls: true
-    servername: 9898singbbox.btcethxx.dpdns.org
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: "/sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws"
-      headers:
-        Host: 9898singbbox.btcethxx.dpdns.org
-  - name: 🇸🇬 SG 5
-    type: vless
-    server: cloudflare-ip.mofashi.ltd
-    port: 443
-    uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
-    udp: true
-    tls: true
-    servername: 9898singbbox.btcethxx.dpdns.org
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: "/sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws"
-      headers:
-        Host: 9898singbbox.btcethxx.dpdns.org
-  - name: 🇸🇬 SG 6
-    type: vless
-    server: cdn.tzpro.xyz
-    port: 443
-    uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
-    udp: true
-    tls: true
-    servername: 9898singbbox.btcethxx.dpdns.org
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: "/sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws"
-      headers:
-        Host: 9898singbbox.btcethxx.dpdns.org
-  - name: 🇸🇬 SG 7
-    type: vless
-    server: ip.164746.xyz
-    port: 443
-    uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
-    udp: true
-    tls: true
-    servername: 9898singbbox.btcethxx.dpdns.org
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: "/sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws"
-      headers:
-        Host: 9898singbbox.btcethxx.dpdns.org
-  - name: 🇸🇬 SG 8
-    type: vless
-    server: cf.130519.xyz
-    port: 443
-    uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
-    udp: true
-    tls: true
-    servername: 9898singbbox.btcethxx.dpdns.org
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: "/sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws"
-      headers:
-        Host: 9898singbbox.btcethxx.dpdns.org
-  - name: 🇸🇬 SG 9
-    type: vless
-    server: cfip.1323123.xyz
-    port: 443
-    uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
-    udp: true
-    tls: true
-    servername: 9898singbbox.btcethxx.dpdns.org
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: "/sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws"
-      headers:
-        Host: 9898singbbox.btcethxx.dpdns.org
-  - name: 🇸🇬 SG 10
-    type: vless
-    server: xn--b6gac.eu.org
-    port: 443
-    uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
-    udp: true
-    tls: true
-    servername: 9898singbbox.btcethxx.dpdns.org
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: "/sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws"
-      headers:
-        Host: 9898singbbox.btcethxx.dpdns.org
-  - name: 🇸🇬 SG 11
-    type: vless
-    server: 9898singbbox.btcethxx.dpdns.org
-    port: 443
-    uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
-    udp: true
-    tls: true
-    servername: 9898singbbox.btcethxx.dpdns.org
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: "/sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws"
-      headers:
-        Host: 9898singbbox.btcethxx.dpdns.org
-  - name: 🇸🇬 SG 12
-    type: vless
-    server: cdns.doon.eu.org
-    port: 443
-    uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
-    udp: true
-    tls: true
-    servername: 9898singbbox.btcethxx.dpdns.org
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: "/sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws"
-      headers:
-        Host: 9898singbbox.btcethxx.dpdns.org
-  - name: 🇸🇬 SG 13
-    type: vless
-    server: cf.008500.xyz
-    port: 443
-    uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
-    udp: true
-    tls: true
-    servername: 9898singbbox.btcethxx.dpdns.org
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: "/sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws"
-      headers:
-        Host: 9898singbbox.btcethxx.dpdns.org
-  - name: 🇸🇬 SG 14
-    type: vless
-    server: cf.090227.xyz
-    port: 443
-    uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
-    udp: true
-    tls: true
-    servername: 9898singbbox.btcethxx.dpdns.org
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: "/sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws"
-      headers:
-        Host: 9898singbbox.btcethxx.dpdns.org
-  - name: 🇸🇬 SG 15
-    type: vless
-    server: cf.877774.xyz
-    port: 443
-    uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
-    udp: true
-    tls: true
-    servername: 9898singbbox.btcethxx.dpdns.org
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: "/sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws"
-      headers:
-        Host: 9898singbbox.btcethxx.dpdns.org
-  - name: 🇸🇬 SG 16
-    type: vless
-    server: cnamefuckxxs.yuchen.icu
-    port: 443
-    uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
-    udp: true
-    tls: true
-    servername: 9898singbbox.btcethxx.dpdns.org
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: "/sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws"
-      headers:
-        Host: 9898singbbox.btcethxx.dpdns.org
-  - name: 🇸🇬 SG 17
-    type: vless
-    server: icook.hk
-    port: 443
-    uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
-    udp: true
-    tls: true
-    servername: 9898singbbox.btcethxx.dpdns.org
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: "/sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws"
-      headers:
-        Host: 9898singbbox.btcethxx.dpdns.org
-  - name: 🇸🇬 SG 18
-    type: vless
-    server: mfa.gov.ua
-    port: 443
-    uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
-    udp: true
-    tls: true
-    servername: 9898singbbox.btcethxx.dpdns.org
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: "/sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws"
-      headers:
-        Host: 9898singbbox.btcethxx.dpdns.org
-  - name: 🇸🇬 SG 19
-    type: vless
-    server: saas.sin.fan
-    port: 443
-    uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
-    udp: true
-    tls: true
-    servername: 9898singbbox.btcethxx.dpdns.org
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: "/sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws"
-      headers:
-        Host: 9898singbbox.btcethxx.dpdns.org
-  - name: 🇸🇬 SG 20
-    type: vless
-    server: singapore.com
-    port: 443
-    uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
-    udp: true
-    tls: true
-    servername: 9898singbbox.btcethxx.dpdns.org
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: "/sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws"
-      headers:
-        Host: 9898singbbox.btcethxx.dpdns.org
-
+- name: 🇭🇰 HK
+  type: vless
+  server: 38.55.192.142
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇭🇰 HK 2
+  type: vless
+  server: 149.104.5.141
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇭🇰 HK 3
+  type: vless
+  server: 122.10.119.252
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇭🇰 HK 4
+  type: vless
+  server: 43.161.253.137
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇭🇰 HK 5
+  type: vless
+  server: 103.143.81.178
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇭🇰 HK 6
+  type: vless
+  server: 103.143.81.222
+  port: 2053
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇭🇰 HK 7
+  type: vless
+  server: 167.148.203.70
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇭🇰 HK 8
+  type: vless
+  server: 45.136.12.128
+  port: 8443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇭🇰 HK 9
+  type: vless
+  server: 58.176.95.46
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇭🇰 HK 10
+  type: vless
+  server: 172.67.193.64
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇭🇰 HK 11
+  type: vless
+  server: 104.21.46.45
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇭🇰 HK 12
+  type: vless
+  server: 104.18.20.9
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇭🇰 HK 13
+  type: vless
+  server: 104.26.9.254
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇭🇰 HK 14
+  type: vless
+  server: 2.27.132.136
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇭🇰 HK 15
+  type: vless
+  server: 172.67.76.219
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇭🇰 HK 16
+  type: vless
+  server: 2.27.109.236
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇭🇰 HK 17
+  type: vless
+  server: 172.67.202.171
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇭🇰 HK 18
+  type: vless
+  server: 104.21.35.108
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇭🇰 HK 19
+  type: vless
+  server: 172.67.195.204
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇭🇰 HK 20
+  type: vless
+  server: 2.27.109.35
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇹🇼 TW
+  type: vless
+  server: 140.115.53.51
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇹🇼 TW 2
+  type: vless
+  server: 140.235.39.162
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇹🇼 TW 3
+  type: vless
+  server: 83.147.15.84
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇹🇼 TW 4
+  type: vless
+  server: 141.11.86.150
+  port: 8443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇯🇵 JP
+  type: vless
+  server: 103.68.223.47
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇯🇵 JP 2
+  type: vless
+  server: 177.2.187.28
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇯🇵 JP 3
+  type: vless
+  server: 69.8.131.28
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇯🇵 JP 4
+  type: vless
+  server: 175.41.232.194
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇯🇵 JP 5
+  type: vless
+  server: 13.115.139.162
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇯🇵 JP 6
+  type: vless
+  server: 3.112.67.101
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇯🇵 JP 7
+  type: vless
+  server: 13.114.101.22
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇯🇵 JP 8
+  type: vless
+  server: 52.197.247.0
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇯🇵 JP 9
+  type: vless
+  server: 13.231.172.130
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇯🇵 JP 10
+  type: vless
+  server: 162.4.194.35
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇯🇵 JP 11
+  type: vless
+  server: 103.201.130.126
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇯🇵 JP 12
+  type: vless
+  server: 45.8.173.253
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇯🇵 JP 13
+  type: vless
+  server: 45.78.58.239
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇯🇵 JP 14
+  type: vless
+  server: 154.19.187.141
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇯🇵 JP 15
+  type: vless
+  server: 154.19.187.5
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇯🇵 JP 16
+  type: vless
+  server: 14.137.235.154
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇯🇵 JP 17
+  type: vless
+  server: 126.217.78.118
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇯🇵 JP 18
+  type: vless
+  server: 60.130.209.253
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇯🇵 JP 19
+  type: vless
+  server: 74.113.96.69
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇯🇵 JP 20
+  type: vless
+  server: 156.154.245.83
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇺🇸 US
+  type: vless
+  server: 8.134.220.58
+  port: 8443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇺🇸 US 2
+  type: vless
+  server: 8.217.117.88
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇺🇸 US 3
+  type: vless
+  server: 47.57.181.17
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇺🇸 US 4
+  type: vless
+  server: 220.118.83.101
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇺🇸 US 5
+  type: vless
+  server: 188.255.157.177
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇺🇸 US 6
+  type: vless
+  server: 68.166.252.14
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇺🇸 US 7
+  type: vless
+  server: 192.6.161.42
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇺🇸 US 8
+  type: vless
+  server: 154.9.243.154
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇺🇸 US 9
+  type: vless
+  server: 179.255.136.73
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇺🇸 US 10
+  type: vless
+  server: 179.253.241.115
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇺🇸 US 11
+  type: vless
+  server: 179.255.101.54
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇺🇸 US 12
+  type: vless
+  server: 179.255.123.207
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇺🇸 US 13
+  type: vless
+  server: 179.255.103.81
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇺🇸 US 14
+  type: vless
+  server: 216.36.80.137
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇺🇸 US 15
+  type: vless
+  server: 23.246.154.17
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇺🇸 US 16
+  type: vless
+  server: 154.17.16.219
+  port: 8443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇺🇸 US 17
+  type: vless
+  server: 45.59.128.171
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇺🇸 US 18
+  type: vless
+  server: 131.143.180.91
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇺🇸 US 19
+  type: vless
+  server: 179.255.115.39
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇺🇸 US 20
+  type: vless
+  server: 179.255.127.43
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇰🇷 KR
+  type: vless
+  server: 123.111.169.70
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇰🇷 KR 2
+  type: vless
+  server: 140.245.70.145
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇰🇷 KR 3
+  type: vless
+  server: 140.238.8.92
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇰🇷 KR 4
+  type: vless
+  server: 131.186.16.166
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇰🇷 KR 5
+  type: vless
+  server: 132.145.81.117
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇰🇷 KR 6
+  type: vless
+  server: 193.122.119.241
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇰🇷 KR 7
+  type: vless
+  server: 193.122.115.184
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇰🇷 KR 8
+  type: vless
+  server: 131.186.25.156
+  port: 2087
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇰🇷 KR 9
+  type: vless
+  server: 152.70.237.30
+  port: 8443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇰🇷 KR 10
+  type: vless
+  server: 152.70.253.44
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇰🇷 KR 11
+  type: vless
+  server: 146.56.188.74
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇰🇷 KR 12
+  type: vless
+  server: 193.123.236.206
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇰🇷 KR 13
+  type: vless
+  server: 132.145.91.135
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇰🇷 KR 14
+  type: vless
+  server: 152.70.253.84
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇰🇷 KR 15
+  type: vless
+  server: 158.247.220.241
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇰🇷 KR 16
+  type: vless
+  server: 130.94.29.155
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇰🇷 KR 17
+  type: vless
+  server: 64.176.230.50
+  port: 443
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇰🇷 KR 18
+  type: vless
+  server: 141.164.44.60
+  port: 2053
+  uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
+  udp: true
+  tls: true
+  servername: emdd.deepseekhermes.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: emdd.deepseekhermes.dpdns.org
+- name: 🇸🇬 SG
+  type: vless
+  server: icook.tw
+  port: 443
+  uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
+  udp: true
+  tls: true
+  servername: 9898singbbox.btcethxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws
+    headers:
+      Host: 9898singbbox.btcethxx.dpdns.org
+- name: 🇸🇬 SG 2
+  type: vless
+  server: malaysia.com
+  port: 443
+  uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
+  udp: true
+  tls: true
+  servername: 9898singbbox.btcethxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws
+    headers:
+      Host: 9898singbbox.btcethxx.dpdns.org
+- name: 🇸🇬 SG 3
+  type: vless
+  server: japan.com
+  port: 443
+  uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
+  udp: true
+  tls: true
+  servername: 9898singbbox.btcethxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws
+    headers:
+      Host: 9898singbbox.btcethxx.dpdns.org
+- name: 🇸🇬 SG 4
+  type: vless
+  server: cf.0sm.com
+  port: 443
+  uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
+  udp: true
+  tls: true
+  servername: 9898singbbox.btcethxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws
+    headers:
+      Host: 9898singbbox.btcethxx.dpdns.org
+- name: 🇸🇬 SG 5
+  type: vless
+  server: cloudflare-ip.mofashi.ltd
+  port: 443
+  uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
+  udp: true
+  tls: true
+  servername: 9898singbbox.btcethxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws
+    headers:
+      Host: 9898singbbox.btcethxx.dpdns.org
+- name: 🇸🇬 SG 6
+  type: vless
+  server: cdn.tzpro.xyz
+  port: 443
+  uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
+  udp: true
+  tls: true
+  servername: 9898singbbox.btcethxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws
+    headers:
+      Host: 9898singbbox.btcethxx.dpdns.org
+- name: 🇸🇬 SG 7
+  type: vless
+  server: ip.164746.xyz
+  port: 443
+  uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
+  udp: true
+  tls: true
+  servername: 9898singbbox.btcethxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws
+    headers:
+      Host: 9898singbbox.btcethxx.dpdns.org
+- name: 🇸🇬 SG 8
+  type: vless
+  server: cf.130519.xyz
+  port: 443
+  uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
+  udp: true
+  tls: true
+  servername: 9898singbbox.btcethxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws
+    headers:
+      Host: 9898singbbox.btcethxx.dpdns.org
+- name: 🇸🇬 SG 9
+  type: vless
+  server: cfip.1323123.xyz
+  port: 443
+  uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
+  udp: true
+  tls: true
+  servername: 9898singbbox.btcethxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws
+    headers:
+      Host: 9898singbbox.btcethxx.dpdns.org
+- name: 🇸🇬 SG 10
+  type: vless
+  server: xn--b6gac.eu.org
+  port: 443
+  uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
+  udp: true
+  tls: true
+  servername: 9898singbbox.btcethxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws
+    headers:
+      Host: 9898singbbox.btcethxx.dpdns.org
+- name: 🇸🇬 SG 11
+  type: vless
+  server: 9898singbbox.btcethxx.dpdns.org
+  port: 443
+  uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
+  udp: true
+  tls: true
+  servername: 9898singbbox.btcethxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws
+    headers:
+      Host: 9898singbbox.btcethxx.dpdns.org
+- name: 🇸🇬 SG 12
+  type: vless
+  server: cdns.doon.eu.org
+  port: 443
+  uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
+  udp: true
+  tls: true
+  servername: 9898singbbox.btcethxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws
+    headers:
+      Host: 9898singbbox.btcethxx.dpdns.org
+- name: 🇸🇬 SG 13
+  type: vless
+  server: cf.008500.xyz
+  port: 443
+  uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
+  udp: true
+  tls: true
+  servername: 9898singbbox.btcethxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws
+    headers:
+      Host: 9898singbbox.btcethxx.dpdns.org
+- name: 🇸🇬 SG 14
+  type: vless
+  server: cf.090227.xyz
+  port: 443
+  uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
+  udp: true
+  tls: true
+  servername: 9898singbbox.btcethxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws
+    headers:
+      Host: 9898singbbox.btcethxx.dpdns.org
+- name: 🇸🇬 SG 15
+  type: vless
+  server: cf.877774.xyz
+  port: 443
+  uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
+  udp: true
+  tls: true
+  servername: 9898singbbox.btcethxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws
+    headers:
+      Host: 9898singbbox.btcethxx.dpdns.org
+- name: 🇸🇬 SG 16
+  type: vless
+  server: cnamefuckxxs.yuchen.icu
+  port: 443
+  uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
+  udp: true
+  tls: true
+  servername: 9898singbbox.btcethxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws
+    headers:
+      Host: 9898singbbox.btcethxx.dpdns.org
+- name: 🇸🇬 SG 17
+  type: vless
+  server: icook.hk
+  port: 443
+  uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
+  udp: true
+  tls: true
+  servername: 9898singbbox.btcethxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws
+    headers:
+      Host: 9898singbbox.btcethxx.dpdns.org
+- name: 🇸🇬 SG 18
+  type: vless
+  server: mfa.gov.ua
+  port: 443
+  uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
+  udp: true
+  tls: true
+  servername: 9898singbbox.btcethxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws
+    headers:
+      Host: 9898singbbox.btcethxx.dpdns.org
+- name: 🇸🇬 SG 19
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
+  udp: true
+  tls: true
+  servername: 9898singbbox.btcethxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws
+    headers:
+      Host: 9898singbbox.btcethxx.dpdns.org
+- name: 🇸🇬 SG 20
+  type: vless
+  server: singapore.com
+  port: 443
+  uuid: 08d522c1-9543-47a4-b789-70ee88d2a212
+  udp: true
+  tls: true
+  servername: 9898singbbox.btcethxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sb-08d522c1-9543-47a4-b789-70ee88d2a212-ws
+    headers:
+      Host: 9898singbbox.btcethxx.dpdns.org
 proxy-groups:
-  - name: 🚀 节点选择
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_Static.png
-    proxies:
-      - ♻️ 自动选择
-      - 🔯 故障转移
-      - 🔮 负载均衡
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇺🇸 美国节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-      - DIRECT
-  - name: 🚀 手动切换
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_Available.png
-    include-all: true
-  - name: ♻️ 自动选择
-    type: url-test
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_Auto.png
-    include-all: true
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-  - name: 🔯 故障转移
-    type: fallback
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_ULB.png
-    include-all: true
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-  - name: 🔮 负载均衡
-    type: load-balance
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_Round_Robin.png
-    include-all: true
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-  - name: 🇭🇰 香港节点
-    type: url-test
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_HK.png
-    include-all: true
-    filter: (?i)HK|香港|港
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-  - name: 🇹🇼 台湾节点
-    type: url-test
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_TW.png
-    include-all: true
-    filter: (?i)TW|台湾|台
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-  - name: 🇸🇬 狮城节点
-    type: url-test
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_SG.png
-    include-all: true
-    filter: (?i)SG|新加坡|狮城
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-  - name: 🇯🇵 日本节点
-    type: url-test
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_JP.png
-    include-all: true
-    filter: (?i)JP|日本
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-  - name: 🇺🇸 美国节点
-    type: url-test
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_US.png
-    include-all: true
-    filter: (?i)US|美国
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-  - name: 🇰🇷 韩国节点
-    type: url-test
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_KR.png
-    include-all: true
-    filter: (?i)KR|韩国
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-  - name: 💰 数字货币
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_Cryptocurrency.png
-    proxies:
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇺🇸 美国节点
-      - 🇰🇷 韩国节点
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - DIRECT
-  - name: 🤖 Ai平台
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_AI.png
-    proxies:
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇺🇸 美国节点
-      - 🇰🇷 韩国节点
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - DIRECT
-  - name: 🤖 Claude
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/sins_Claude.png
-    proxies:
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇺🇸 美国节点
-      - 🇰🇷 韩国节点
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - DIRECT
-  - name: 🤖 OpenAI
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_OpenAI.png
-    proxies:
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇺🇸 美国节点
-      - 🇰🇷 韩国节点
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - DIRECT
-  - name: ✨ Gemini
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/sins_Gemini.png
-    proxies:
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇺🇸 美国节点
-      - 🇰🇷 韩国节点
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - DIRECT
-  - name: 📲 电报消息
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_Telegram.png
-    proxies:
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇺🇸 美国节点
-      - 🇰🇷 韩国节点
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - DIRECT
-  - name: ▶️ 油管视频
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_YouTube.png
-    proxies:
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇺🇸 美国节点
-      - 🇰🇷 韩国节点
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - DIRECT
-  - name: 🎥 奈飞视频
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_Netflix.png
-    proxies:
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇺🇸 美国节点
-      - 🇰🇷 韩国节点
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - DIRECT
-  - name: 🏰 迪士尼
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_Disney.png
-    proxies:
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇺🇸 美国节点
-      - 🇰🇷 韩国节点
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - DIRECT
-  - name: 🎧 Spotify
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/sins_Spotify.png
-    proxies:
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇺🇸 美国节点
-      - 🇰🇷 韩国节点
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - DIRECT
-  - name: 🎵 TikTok
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_TikTok.png
-    proxies:
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇺🇸 美国节点
-      - 🇰🇷 韩国节点
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - DIRECT
-  - name: 🐦 推特
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/x_twitter.png
-    proxies:
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇺🇸 美国节点
-      - 🇰🇷 韩国节点
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - DIRECT
-  - name: 🔍 谷歌
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_Google.png
-    proxies:
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇺🇸 美国节点
-      - 🇰🇷 韩国节点
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - DIRECT
-  - name: ☁️ Cloudflare
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_Cloudflare.png
-    proxies:
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇺🇸 美国节点
-      - 🇰🇷 韩国节点
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - DIRECT
-  - name: 🍎 苹果服务
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_Apple.png
-    proxies:
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇺🇸 美国节点
-      - 🇰🇷 韩国节点
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - DIRECT
-  - name: 🌍 国外媒体
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_ForeignMedia.png
-    proxies:
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇺🇸 美国节点
-      - 🇰🇷 韩国节点
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - DIRECT
-  - name: 🌏 国内媒体
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_China.png
-    proxies:
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇺🇸 美国节点
-      - 🇰🇷 韩国节点
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - DIRECT
-  - name: 🔞 成人内容
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_Heart.png
-    proxies:
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇺🇸 美国节点
-      - 🇰🇷 韩国节点
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - DIRECT
-  - name: 🛑 广告拦截
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_AdBlack.png
-    proxies:
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇺🇸 美国节点
-      - 🇰🇷 韩国节点
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - DIRECT
-  - name: 🎯 全球直连
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_Direct.png
-    proxies:
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇺🇸 美国节点
-      - 🇰🇷 韩国节点
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - DIRECT
-  - name: 🐟 漏网之鱼
-    type: select
-    icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_Final.png
-    proxies:
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇺🇸 美国节点
-      - 🇰🇷 韩国节点
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - DIRECT
-
+- name: 🚀 节点选择
+  type: fallback
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_Static.png
+  proxies:
+  - ♻️ 自动选择
+  - 🔯 故障转移
+  - 🔮 负载均衡
+  - 🇭🇰 香港节点
+  - 🇹🇼 台湾节点
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇺🇸 美国节点
+  - 🇰🇷 韩国节点
+  - 🚀 手动切换
+  - DIRECT
+  url: https://www.apple.com/library/test/success.html
+  interval: 300
+  tolerance: 150
+- name: 🚀 手动切换
+  type: fallback
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_Available.png
+  include-all: true
+  url: https://www.apple.com/library/test/success.html
+  interval: 300
+  tolerance: 150
+- name: ♻️ 自动选择
+  type: url-test
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_Auto.png
+  include-all: true
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+- name: 🔯 故障转移
+  type: fallback
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_ULB.png
+  include-all: true
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+- name: 🔮 负载均衡
+  type: load-balance
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_Round_Robin.png
+  include-all: true
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+- name: 🇭🇰 香港节点
+  type: url-test
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_HK.png
+  include-all: true
+  filter: (?i)HK|香港|港
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+- name: 🇹🇼 台湾节点
+  type: url-test
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_TW.png
+  include-all: true
+  filter: (?i)TW|台湾|台
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+- name: 🇸🇬 狮城节点
+  type: url-test
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_SG.png
+  include-all: true
+  filter: (?i)SG|新加坡|狮城
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+- name: 🇯🇵 日本节点
+  type: url-test
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_JP.png
+  include-all: true
+  filter: (?i)JP|日本
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+- name: 🇺🇸 美国节点
+  type: url-test
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_US.png
+  include-all: true
+  filter: (?i)US|美国
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+- name: 🇰🇷 韩国节点
+  type: url-test
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_KR.png
+  include-all: true
+  filter: (?i)KR|韩国
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+- name: 💰 数字货币
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_Cryptocurrency.png
+  proxies:
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇭🇰 香港节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇰🇷 韩国节点
+  - ♻️ 自动选择
+  - 🚀 手动切换
+  - DIRECT
+- name: 🤖 Ai平台
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_AI.png
+  proxies:
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇭🇰 香港节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇰🇷 韩国节点
+  - ♻️ 自动选择
+  - 🚀 手动切换
+  - DIRECT
+- name: 🤖 Claude
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/sins_Claude.png
+  proxies:
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇭🇰 香港节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇰🇷 韩国节点
+  - ♻️ 自动选择
+  - 🚀 手动切换
+  - DIRECT
+- name: 🤖 OpenAI
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_OpenAI.png
+  proxies:
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇭🇰 香港节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇰🇷 韩国节点
+  - ♻️ 自动选择
+  - 🚀 手动切换
+  - DIRECT
+- name: ✨ Gemini
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/sins_Gemini.png
+  proxies:
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇭🇰 香港节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇰🇷 韩国节点
+  - ♻️ 自动选择
+  - 🚀 手动切换
+  - DIRECT
+- name: 📲 电报消息
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_Telegram.png
+  proxies:
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇭🇰 香港节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇰🇷 韩国节点
+  - ♻️ 自动选择
+  - 🚀 手动切换
+  - DIRECT
+- name: ▶️ 油管视频
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_YouTube.png
+  proxies:
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇭🇰 香港节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇰🇷 韩国节点
+  - ♻️ 自动选择
+  - 🚀 手动切换
+  - DIRECT
+- name: 🎥 奈飞视频
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_Netflix.png
+  proxies:
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇭🇰 香港节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇰🇷 韩国节点
+  - ♻️ 自动选择
+  - 🚀 手动切换
+  - DIRECT
+- name: 🏰 迪士尼
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_Disney.png
+  proxies:
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇭🇰 香港节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇰🇷 韩国节点
+  - ♻️ 自动选择
+  - 🚀 手动切换
+  - DIRECT
+- name: 🎧 Spotify
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/sins_Spotify.png
+  proxies:
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇭🇰 香港节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇰🇷 韩国节点
+  - ♻️ 自动选择
+  - 🚀 手动切换
+  - DIRECT
+- name: 🎵 TikTok
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_TikTok.png
+  proxies:
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇭🇰 香港节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇰🇷 韩国节点
+  - ♻️ 自动选择
+  - 🚀 手动切换
+  - DIRECT
+- name: 🐦 推特
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/x_twitter.png
+  proxies:
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇭🇰 香港节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇰🇷 韩国节点
+  - ♻️ 自动选择
+  - 🚀 手动切换
+  - DIRECT
+- name: 🔍 谷歌
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_Google.png
+  proxies:
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇭🇰 香港节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇰🇷 韩国节点
+  - ♻️ 自动选择
+  - 🚀 手动切换
+  - DIRECT
+- name: ☁️ Cloudflare
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_Cloudflare.png
+  proxies:
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇭🇰 香港节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇰🇷 韩国节点
+  - ♻️ 自动选择
+  - 🚀 手动切换
+  - DIRECT
+- name: 🍎 苹果服务
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_Apple.png
+  proxies:
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇭🇰 香港节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇰🇷 韩国节点
+  - ♻️ 自动选择
+  - 🚀 手动切换
+  - DIRECT
+- name: 🌍 国外媒体
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_ForeignMedia.png
+  proxies:
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇭🇰 香港节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇰🇷 韩国节点
+  - ♻️ 自动选择
+  - 🚀 手动切换
+  - DIRECT
+- name: 🌏 国内媒体
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_China.png
+  proxies:
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇭🇰 香港节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇰🇷 韩国节点
+  - ♻️ 自动选择
+  - 🚀 手动切换
+  - DIRECT
+- name: 🔞 成人内容
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_Heart.png
+  proxies:
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇭🇰 香港节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇰🇷 韩国节点
+  - ♻️ 自动选择
+  - 🚀 手动切换
+  - DIRECT
+- name: 🛑 广告拦截
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_AdBlack.png
+  proxies:
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇭🇰 香港节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇰🇷 韩国节点
+  - ♻️ 自动选择
+  - 🚀 手动切换
+  - DIRECT
+- name: 🎯 全球直连
+  type: select
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_Direct.png
+  proxies:
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇭🇰 香港节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇰🇷 韩国节点
+  - ♻️ 自动选择
+  - 🚀 手动切换
+  - DIRECT
+- name: 🐟 漏网之鱼
+  type: fallback
+  icon: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_Final.png
+  proxies:
+  - ♻️ 自动选择
+  - 🇭🇰 香港节点
+  - 🇹🇼 台湾节点
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇺🇸 美国节点
+  - 🇰🇷 韩国节点
+  - 🚀 手动切换
+  - DIRECT
+  url: https://www.apple.com/library/test/success.html
+  interval: 300
+  tolerance: 150
 rules:
-  - GEOSITE,private,DIRECT
-  - GEOIP,private,DIRECT
-  - GEOSITE,category-ads-all,🛑 广告拦截
-  - DOMAIN-SUFFIX,binance.com,💰 数字货币
-  - DOMAIN-SUFFIX,binance.us,💰 数字货币
-  - DOMAIN-SUFFIX,binance.org,💰 数字货币
-  - DOMAIN-SUFFIX,binancezh.cc,💰 数字货币
-  - DOMAIN-SUFFIX,bnappzh.com,💰 数字货币
-  - DOMAIN-SUFFIX,bnappzh.co,💰 数字货币
-  - DOMAIN-SUFFIX,bnbstatic.com,💰 数字货币
-  - DOMAIN-SUFFIX,bntrace.com,💰 数字货币
-  - DOMAIN-SUFFIX,okx.com,💰 数字货币
-  - DOMAIN-SUFFIX,okex.com,💰 数字货币
-  - DOMAIN-SUFFIX,bybit.com,💰 数字货币
-  - DOMAIN-SUFFIX,bybit.me,💰 数字货币
-  - DOMAIN-SUFFIX,bybit.uk,💰 数字货币
-  - DOMAIN-SUFFIX,gate.io,💰 数字货币
-  - DOMAIN-SUFFIX,coinbase.com,💰 数字货币
-  - DOMAIN-SUFFIX,coinbase.us,💰 数字货币
-  - DOMAIN-SUFFIX,kraken.com,💰 数字货币
-  - DOMAIN-SUFFIX,kucoin.com,💰 数字货币
-  - DOMAIN-SUFFIX,bitfinex.com,💰 数字货币
-  - DOMAIN-SUFFIX,bitstamp.net,💰 数字货币
-  - DOMAIN-SUFFIX,bitmex.com,💰 数字货币
-  - DOMAIN-SUFFIX,htx.com,💰 数字货币
-  - DOMAIN-SUFFIX,htx.me,💰 数字货币
-  - DOMAIN-SUFFIX,huobi.com,💰 数字货币
-  - DOMAIN-SUFFIX,huobi.me,💰 数字货币
-  - DOMAIN-SUFFIX,bitget.com,💰 数字货币
-  - DOMAIN-SUFFIX,bitget.global,💰 数字货币
-  - DOMAIN-SUFFIX,bitget.im,💰 数字货币
-  - DOMAIN-SUFFIX,mexc.com,💰 数字货币
-  - DOMAIN-SUFFIX,mexc.global,💰 数字货币
-  - DOMAIN-SUFFIX,mexc.io,💰 数字货币
-  - DOMAIN-SUFFIX,bingx.com,💰 数字货币
-  - DOMAIN-SUFFIX,bingx.net,💰 数字货币
-  - DOMAIN-SUFFIX,bitmart.com,💰 数字货币
-  - DOMAIN-SUFFIX,phemex.com,💰 数字货币
-  - DOMAIN-SUFFIX,deribit.com,💰 数字货币
-  - DOMAIN-SUFFIX,crypto.com,💰 数字货币
-  - DOMAIN-SUFFIX,gemini.com,💰 数字货币
-  - DOMAIN-SUFFIX,bitflyer.com,💰 数字货币
-  - DOMAIN-SUFFIX,bitbank.cc,💰 数字货币
-  - DOMAIN-SUFFIX,coincheck.com,💰 数字货币
-  - DOMAIN-SUFFIX,upbit.com,💰 数字货币
-  - DOMAIN-SUFFIX,bithumb.com,💰 数字货币
-  - DOMAIN-SUFFIX,korbit.co.kr,💰 数字货币
-  - DOMAIN-SUFFIX,coinone.co.kr,💰 数字货币
-  - DOMAIN-SUFFIX,zb.com,💰 数字货币
-  - DOMAIN-SUFFIX,aex.com,💰 数字货币
-  - DOMAIN-SUFFIX,bibox.com,💰 数字货币
-  - DOMAIN-SUFFIX,liquid.com,💰 数字货币
-  - DOMAIN-SUFFIX,poloniex.com,💰 数字货币
-  - DOMAIN-SUFFIX,ftx.com,💰 数字货币
-  - DOMAIN-SUFFIX,okcoin.com,💰 数字货币
-  - DOMAIN-SUFFIX,coinw.com,💰 数字货币
-  - DOMAIN-SUFFIX,lbank.com,💰 数字货币
-  - DOMAIN-SUFFIX,xt.com,💰 数字货币
-  - DOMAIN-SUFFIX,woo.network,💰 数字货币
-  - DOMAIN-SUFFIX,dydx.exchange,💰 数字货币
-  - DOMAIN-SUFFIX,dydx.trade,💰 数字货币
-  - DOMAIN-SUFFIX,bitrue.com,💰 数字货币
-  - DOMAIN-SUFFIX,coinex.com,💰 数字货币
-  - DOMAIN-SUFFIX,ascendex.com,💰 数字货币
-  - DOMAIN-SUFFIX,whitebit.com,💰 数字货币
-  - DOMAIN-SUFFIX,digifinex.com,💰 数字货币
-  - DOMAIN-SUFFIX,bitpanda.com,💰 数字货币
-  - DOMAIN-SUFFIX,bit2me.com,💰 数字货币
-  - DOMAIN-SUFFIX,bitso.com,💰 数字货币
-  - DOMAIN-SUFFIX,mercadobitcoin.com.br,💰 数字货币
-  - DOMAIN-SUFFIX,metamask.io,💰 数字货币
-  - DOMAIN-SUFFIX,trustwallet.com,💰 数字货币
-  - DOMAIN-SUFFIX,blockchain.com,💰 数字货币
-  - DOMAIN-SUFFIX,debank.com,💰 数字货币
-  - DOMAIN-SUFFIX,etherscan.io,💰 数字货币
-  - DOMAIN-SUFFIX,coingecko.com,💰 数字货币
-  - DOMAIN-SUFFIX,coinmarketcap.com,💰 数字货币
-  - DOMAIN-SUFFIX,bitcointalk.org,💰 数字货币
-  - DOMAIN-SUFFIX,aicoin.com,💰 数字货币
-  - DOMAIN-SUFFIX,bitunix.com,💰 数字货币
-  - DOMAIN-SUFFIX,bitunix.io,💰 数字货币
-  - DOMAIN-SUFFIX,bitunix,💰 数字货币
-  - DOMAIN-KEYWORD,bitunix,💰 数字货币
-  - DOMAIN-KEYWORD,binance,💰 数字货币
-  - DOMAIN-KEYWORD,bybit,💰 数字货币
-  - DOMAIN-KEYWORD,okx,💰 数字货币
-  - DOMAIN-KEYWORD,crypto,💰 数字货币
-  - GEOSITE,cn,🎯 全球直连
-  - GEOIP,cn,🎯 全球直连
-  - MATCH,🐟 漏网之鱼
+- GEOSITE,private,DIRECT
+- GEOIP,private,DIRECT
+- GEOSITE,category-ads-all,🛑 广告拦截
+- DOMAIN-SUFFIX,binance.com,💰 数字货币
+- DOMAIN-SUFFIX,binance.us,💰 数字货币
+- DOMAIN-SUFFIX,binance.org,💰 数字货币
+- DOMAIN-SUFFIX,binancezh.cc,💰 数字货币
+- DOMAIN-SUFFIX,bnappzh.com,💰 数字货币
+- DOMAIN-SUFFIX,bnappzh.co,💰 数字货币
+- DOMAIN-SUFFIX,bnbstatic.com,💰 数字货币
+- DOMAIN-SUFFIX,bntrace.com,💰 数字货币
+- DOMAIN-SUFFIX,okx.com,💰 数字货币
+- DOMAIN-SUFFIX,okex.com,💰 数字货币
+- DOMAIN-SUFFIX,bybit.com,💰 数字货币
+- DOMAIN-SUFFIX,bybit.me,💰 数字货币
+- DOMAIN-SUFFIX,bybit.uk,💰 数字货币
+- DOMAIN-SUFFIX,gate.io,💰 数字货币
+- DOMAIN-SUFFIX,coinbase.com,💰 数字货币
+- DOMAIN-SUFFIX,coinbase.us,💰 数字货币
+- DOMAIN-SUFFIX,kraken.com,💰 数字货币
+- DOMAIN-SUFFIX,kucoin.com,💰 数字货币
+- DOMAIN-SUFFIX,bitfinex.com,💰 数字货币
+- DOMAIN-SUFFIX,bitstamp.net,💰 数字货币
+- DOMAIN-SUFFIX,bitmex.com,💰 数字货币
+- DOMAIN-SUFFIX,htx.com,💰 数字货币
+- DOMAIN-SUFFIX,htx.me,💰 数字货币
+- DOMAIN-SUFFIX,huobi.com,💰 数字货币
+- DOMAIN-SUFFIX,huobi.me,💰 数字货币
+- DOMAIN-SUFFIX,bitget.com,💰 数字货币
+- DOMAIN-SUFFIX,bitget.global,💰 数字货币
+- DOMAIN-SUFFIX,bitget.im,💰 数字货币
+- DOMAIN-SUFFIX,mexc.com,💰 数字货币
+- DOMAIN-SUFFIX,mexc.global,💰 数字货币
+- DOMAIN-SUFFIX,mexc.io,💰 数字货币
+- DOMAIN-SUFFIX,bingx.com,💰 数字货币
+- DOMAIN-SUFFIX,bingx.net,💰 数字货币
+- DOMAIN-SUFFIX,bitmart.com,💰 数字货币
+- DOMAIN-SUFFIX,phemex.com,💰 数字货币
+- DOMAIN-SUFFIX,deribit.com,💰 数字货币
+- DOMAIN-SUFFIX,crypto.com,💰 数字货币
+- DOMAIN-SUFFIX,gemini.com,💰 数字货币
+- DOMAIN-SUFFIX,bitflyer.com,💰 数字货币
+- DOMAIN-SUFFIX,bitbank.cc,💰 数字货币
+- DOMAIN-SUFFIX,coincheck.com,💰 数字货币
+- DOMAIN-SUFFIX,upbit.com,💰 数字货币
+- DOMAIN-SUFFIX,bithumb.com,💰 数字货币
+- DOMAIN-SUFFIX,korbit.co.kr,💰 数字货币
+- DOMAIN-SUFFIX,coinone.co.kr,💰 数字货币
+- DOMAIN-SUFFIX,zb.com,💰 数字货币
+- DOMAIN-SUFFIX,aex.com,💰 数字货币
+- DOMAIN-SUFFIX,bibox.com,💰 数字货币
+- DOMAIN-SUFFIX,liquid.com,💰 数字货币
+- DOMAIN-SUFFIX,poloniex.com,💰 数字货币
+- DOMAIN-SUFFIX,ftx.com,💰 数字货币
+- DOMAIN-SUFFIX,okcoin.com,💰 数字货币
+- DOMAIN-SUFFIX,coinw.com,💰 数字货币
+- DOMAIN-SUFFIX,lbank.com,💰 数字货币
+- DOMAIN-SUFFIX,xt.com,💰 数字货币
+- DOMAIN-SUFFIX,woo.network,💰 数字货币
+- DOMAIN-SUFFIX,dydx.exchange,💰 数字货币
+- DOMAIN-SUFFIX,dydx.trade,💰 数字货币
+- DOMAIN-SUFFIX,bitrue.com,💰 数字货币
+- DOMAIN-SUFFIX,coinex.com,💰 数字货币
+- DOMAIN-SUFFIX,ascendex.com,💰 数字货币
+- DOMAIN-SUFFIX,whitebit.com,💰 数字货币
+- DOMAIN-SUFFIX,digifinex.com,💰 数字货币
+- DOMAIN-SUFFIX,bitpanda.com,💰 数字货币
+- DOMAIN-SUFFIX,bit2me.com,💰 数字货币
+- DOMAIN-SUFFIX,bitso.com,💰 数字货币
+- DOMAIN-SUFFIX,mercadobitcoin.com.br,💰 数字货币
+- DOMAIN-SUFFIX,metamask.io,💰 数字货币
+- DOMAIN-SUFFIX,trustwallet.com,💰 数字货币
+- DOMAIN-SUFFIX,blockchain.com,💰 数字货币
+- DOMAIN-SUFFIX,debank.com,💰 数字货币
+- DOMAIN-SUFFIX,etherscan.io,💰 数字货币
+- DOMAIN-SUFFIX,coingecko.com,💰 数字货币
+- DOMAIN-SUFFIX,coinmarketcap.com,💰 数字货币
+- DOMAIN-SUFFIX,bitcointalk.org,💰 数字货币
+- DOMAIN-SUFFIX,aicoin.com,💰 数字货币
+- DOMAIN-SUFFIX,bitunix.com,💰 数字货币
+- DOMAIN-SUFFIX,bitunix.io,💰 数字货币
+- DOMAIN-SUFFIX,bitunix,💰 数字货币
+- DOMAIN-KEYWORD,bitunix,💰 数字货币
+- DOMAIN-KEYWORD,binance,💰 数字货币
+- DOMAIN-KEYWORD,bybit,💰 数字货币
+- DOMAIN-KEYWORD,okx,💰 数字货币
+- DOMAIN-KEYWORD,crypto,💰 数字货币
+- GEOSITE,cn,🎯 全球直连
+- GEOIP,cn,🎯 全球直连
+- MATCH,🐟 漏网之鱼
