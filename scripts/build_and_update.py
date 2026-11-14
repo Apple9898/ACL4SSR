@@ -56,6 +56,69 @@ def update_gist(content, token, gist_id, filename="mihomo_crypto_v3.yaml"):
         return json.loads(resp.read().decode("utf-8"))
 
 
+FALLBACK_GROUPS = [
+    ("🚀 节点选择", "https://www.apple.com/library/test/success.html", 300, 150),
+    ("🚀 手动切换", "https://www.apple.com/library/test/success.html", 300, 150),
+    ("🐟 漏网之鱼", "https://www.apple.com/library/test/success.html", 300, 150),
+]
+
+# 重组「🚀 节点选择」和「🐟 漏网之鱼」的 proxies 顺序：自动选择→故障转移→国家→手动切换→DIRECT
+# 用国旗完整字符匹配（而非前缀），避免 Unicode 码点顺序问题
+REORDER_AUTO = ["♻️ 自动选择", "🔯 故障转移", "🔮 负载均衡"]
+REORDER_COUNTRY = [
+    "🇭🇰 香港节点",
+    "🇹🇼 台湾节点",
+    "🇸🇬 狮城节点",
+    "🇯🇵 日本节点",
+    "🇺🇸 美国节点",
+    "🇰🇷 韩国节点",
+]
+REORDER_AFTER = ["🚀 手动切换", "DIRECT"]
+
+
+def _reorder_proxies(names):
+    """按 自动选择→故障转移→负载均衡→国家节点→手动切换→DIRECT 重排"""
+    order = REORDER_AUTO + REORDER_COUNTRY + REORDER_AFTER
+    reordered = []
+    for target in order:
+        for n in names:
+            if n == target or (target in n and n not in reordered):
+                reordered.append(n)
+    # 补上遗漏的
+    for n in names:
+        if n not in reordered:
+            reordered.append(n)
+    return reordered
+
+
+def convert_to_fallback(yaml_text):
+    """将关键 select 分组转为 fallback，添加 url/interval/tolerance，重组 proxies 顺序"""
+    import yaml as _yaml
+    data = _yaml.safe_load(yaml_text)
+    if not data or "proxy-groups" not in data:
+        return yaml_text
+
+    groups = data["proxy-groups"]
+    for g in groups:
+        if not isinstance(g, dict):
+            continue
+        name = g.get("name", "")
+        for target, url, interval, tolerance in FALLBACK_GROUPS:
+            if name == target:
+                g["type"] = "fallback"
+                g["url"] = url
+                g["interval"] = interval
+                g["tolerance"] = tolerance
+                # 重组 proxies 顺序
+                if "proxies" in g and isinstance(g["proxies"], list):
+                    g["proxies"] = _reorder_proxies(g["proxies"])
+                print(f"  转换: {name} -> fallback (url={url}, interval={interval}, tolerance={tolerance})")
+                break
+
+    out = _yaml.safe_dump(data, allow_unicode=True, sort_keys=False, default_flow_style=False)
+    return out
+
+
 def build_32(sub_url):
     """复用 build_config 的 32 分组构建, 返回 YAML 文本"""
     lines = fetch_vless_list(sub_url)
@@ -65,7 +128,11 @@ def build_32(sub_url):
     # 调用 build_config.main 的构建本体（会写 mihomo_crypto.yaml）
     bc.main()
     with open("mihomo_crypto.yaml", "r", encoding="utf-8") as f:
-        return f.read()
+        content = f.read()
+    # 后处理：将关键 select 分组转为 fallback
+    print("转换关键分组为 fallback...")
+    content = convert_to_fallback(content)
+    return content
 
 
 def main():
