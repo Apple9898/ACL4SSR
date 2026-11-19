@@ -4,7 +4,11 @@ import urllib.parse
 import re
 from collections import defaultdict
 
-BASE = "https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/"
+# 注意: 必须用 testingcf.jsdelivr.net（jsDelivr 的 Cloudflare 入口）
+# cdn.jsdelivr.net 会把国内请求路由到 Fastly 节点，而 Fastly 对本仓库的
+# PNG 图标持久返回 301 跳转到 raw.githubusercontent.com（国内被墙），
+# 导致 Clash Verge 图标下载失败。Cloudflare 入口实测 200 正常。
+BASE = "https://testingcf.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/"
 
 FLAG = {
     "SG": "\U0001F1F8\U0001F1EC",  # 🇸🇬

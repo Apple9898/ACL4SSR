@@ -3,10 +3,10 @@
 // 图标托管在: https://github.com/Apple9898/ACL4SSR/tree/main/icons
 // 用法: Clash Verge Rev -> 订阅 -> 编辑增强(Script) -> URL 填本文件地址
 // 或: 订阅右键 -> 编辑文件 -> 把本文件内容粘贴到 Script 增强里
-// CDN: https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/clash.icons.js
+// CDN: https://testingcf.jsdelivr.net/gh/Apple9898/ACL4SSR@main/clash.icons.js
 
 function main(config, profileName) {
-  const BASE = "https://cdn.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/";
+  const BASE = "https://testingcf.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/";
 
   function icon(name) {
     return BASE + name;
