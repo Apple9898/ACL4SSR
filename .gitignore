@@ -1,0 +1,6 @@
+mihomo_crypto.yaml
+mihomo_crypto_latest.yaml
+mynodes.txt
+_remote_build_config.py
+__pycache__/
+*.pyc
