@@ -148,39 +148,57 @@ def main():
             lines.append(f"    interval: {interval}")
         return "\n".join(lines)
 
-    g_all = ["\u267B\uFE0F 自动选择", "\U0001F52F 故障转移", "\U0001F52E 负载均衡",
-             "\U0001F1ED\U0001F1F0 香港节点", "\U0001F1F9\U0001F1FC 台湾节点",
-             "\U0001F1F8\U0001F1EC 狮城节点", "\U0001F1EF\U0001F1F5 日本节点",
-             "\U0001F1FA\U0001F1F8 美国节点", "\U0001F1F0\U0001F1F7 韩国节点",
-             "\U0001F680 手动切换", "DIRECT"]
+    # 地区组名称（先定义，供后面的调度组引用）
+    G_HK = "\U0001F1ED\U0001F1F0 香港节点"
+    G_TW = "\U0001F1F9\U0001F1FC 台湾节点"
+    G_SG = "\U0001F1F8\U0001F1EC 狮城节点"
+    G_JP = "\U0001F1EF\U0001F1F5 日本节点"
+    G_US = "\U0001F1FA\U0001F1F8 美国节点"
+    G_KR = "\U0001F1F0\U0001F1F7 韩国节点"
+    G_AUTO = "\u267B\uFE0F 自动选择"
+    G_FB = "\U0001F52F 故障转移"
+    G_LB = "\U0001F52E 负载均衡"
+    G_MANUAL = "\U0001F680 手动切换"
+    G_SELECT = "\U0001F680 节点选择"
+    G_FINAL = "\U0001F41F 漏网之鱼"
+
+    area_list = [G_HK, G_TW, G_SG, G_JP, G_US, G_KR]
+
+    # 节点选择：总开关。成员只放「并联」的独立调度组和地区组，不再内嵌巨型节点列表
+    # 末端不放 DIRECT —— 避免所有节点挂掉时静默直连暴露真实 IP
+    g_select_members = [G_AUTO, G_FB, G_LB] + area_list + [G_MANUAL, G_FINAL]
 
     groups = []
-    groups.append(group("\U0001F680 节点选择", "select", "mini_Static.png", proxies=g_all))
-    groups.append(group("\U0001F680 手动切换", "select", "mini_Available.png", include_all=True))
-    groups.append(group("\u267B\uFE0F 自动选择", "url-test", "qure_Auto.png",
+    groups.append(group(G_SELECT, "select", "mini_Static.png", proxies=g_select_members))
+    groups.append(group(G_MANUAL, "select", "mini_Available.png", include_all=True))
+    groups.append(group(G_AUTO, "url-test", "qure_Auto.png",
                         url="https://www.gstatic.com/generate_204", interval=300, include_all=True))
-    groups.append(group("\U0001F52F 故障转移", "fallback", "qure_ULB.png",
-                        url="https://www.gstatic.com/generate_204", interval=300, include_all=True))
-    groups.append(group("\U0001F52E 负载均衡", "load-balance", "qure_Round_Robin.png",
-                        url="https://www.gstatic.com/generate_204", interval=300, include_all=True))
+    # 故障转移 / 负载均衡：成员改为六个地区组（组级），不再 include-all 全量节点
+    # 地区组内部已各自 url-test，天然分散；这样健康检查从 102×2 降到 6×2 次组级探测
+    groups.append(group(G_FB, "fallback", "qure_ULB.png",
+                        url="https://www.gstatic.com/generate_204", interval=300,
+                        proxies=area_list))
+    groups.append(group(G_LB, "load-balance", "qure_Round_Robin.png",
+                        url="https://www.gstatic.com/generate_204", interval=300,
+                        proxies=area_list))
 
     area = [
-        ("\U0001F1ED\U0001F1F0 香港节点", "mini_HK.png", "(?i)HK|香港|港"),
-        ("\U0001F1F9\U0001F1FC 台湾节点", "mini_TW.png", "(?i)TW|台湾|台"),
-        ("\U0001F1F8\U0001F1EC 狮城节点", "mini_SG.png", "(?i)SG|新加坡|狮城"),
-        ("\U0001F1EF\U0001F1F5 日本节点", "mini_JP.png", "(?i)JP|日本"),
-        ("\U0001F1FA\U0001F1F8 美国节点", "mini_US.png", "(?i)US|美国"),
-        ("\U0001F1F0\U0001F1F7 韩国节点", "mini_KR.png", "(?i)KR|韩国"),
+        (G_HK, "mini_HK.png", "(?i)HK|香港|港"),
+        (G_TW, "mini_TW.png", "(?i)TW|台湾|台"),
+        (G_SG, "mini_SG.png", "(?i)SG|新加坡|狮城"),
+        (G_JP, "mini_JP.png", "(?i)JP|日本"),
+        (G_US, "mini_US.png", "(?i)US|美国"),
+        (G_KR, "mini_KR.png", "(?i)KR|韩国"),
     ]
     for name, icon, pattern in area:
+        # 地区组同时支持按名称自动包含 + 显式列出（兼容 Clash Verge 各种内核版本）
         groups.append(group(name, "url-test", icon,
                             url="https://www.gstatic.com/generate_204", interval=300,
                             include_all=True, filter_=pattern))
 
-    business_proxies = [f"\U0001F1F8\U0001F1EC 狮城节点", f"\U0001F1EF\U0001F1F5 日本节点",
-                        f"\U0001F1ED\U0001F1F0 香港节点", f"\U0001F1F9\U0001F1FC 台湾节点",
-                        f"\U0001F1FA\U0001F1F8 美国节点", f"\U0001F1F0\U0001F1F7 韩国节点",
-                        "\u267B\uFE0F 自动选择", "\U0001F680 手动切换", "DIRECT"]
+    # 业务分组可选的出口（顺序即优先级，用户可在界面上改）
+    business_proxies = [G_SG, G_JP, G_HK, G_TW, G_US, G_KR,
+                        G_AUTO, G_FB, G_MANUAL, "DIRECT"]
 
     bz = [
         ("\U0001F4B0 数字货币", "btc.png"),
@@ -203,10 +221,13 @@ def main():
         ("\U0001F51E 成人内容", "qure_Heart.png"),
         ("\U0001F6D1 广告拦截", "qure_AdBlack.png"),
         ("\U0001F3AF 全球直连", "qure_Direct.png"),
-        ("\U0001F41F 漏网之鱼", "qure_Final.png"),
     ]
     for name, icon in bz:
         groups.append(group(name, "select", icon, proxies=business_proxies))
+
+    # 漏网之鱼：独立备用出口组（成员是原始调度组，不回指节点选择/漏网之鱼，避免循环）
+    groups.append(group(G_FINAL, "select", "qure_Final.png",
+                        proxies=[G_AUTO, G_FB, G_LB] + area_list + [G_MANUAL]))
 
     groups_yml = "\n".join(groups)
 
@@ -237,6 +258,35 @@ def main():
 
     rules_yml = "\n".join(crypto_rules)
 
+    # ========== 平台分流规则（让每个分组真正生效） ==========
+    # 顺序很重要：越具体的平台越靠前，避免被通用 GEOSITE 抢走
+    platform_rules = [
+        # --- AI 平台（OpenAI / Claude / Gemini 先于通用 Ai平台） ---
+        ("GEOSITE,openai",              "\U0001F916 OpenAI"),
+        ("GEOSITE,anthropic",           "\U0001F916 Claude"),
+        ("GEOSITE,google-gemini",       "\u2728 Gemini"),
+        ("GEOSITE,category-ai-!cn",     "\U0001F916 Ai平台"),
+        # --- 流媒体 ---
+        ("GEOSITE,youtube",             "\u25B6\uFE0F 油管视频"),
+        ("GEOSITE,netflix",             "\U0001F3A5 奈飞视频"),
+        ("GEOSITE,disney",              "\U0001F3F0 迪士尼"),
+        ("GEOSITE,spotify",             "\U0001F3A7 Spotify"),
+        ("GEOSITE,tiktok",              "\U0001F3B5 TikTok"),
+        # --- 社交通讯 ---
+        ("GEOSITE,telegram",            "\U0001F4F2 电报消息"),
+        ("GEOSITE,twitter",             "\U0001F426 推特"),
+        # --- 基础服务 ---
+        ("GEOSITE,google",              "\U0001F50D 谷歌"),
+        ("GEOSITE,cloudflare",          "\u2601\uFE0F Cloudflare"),
+        ("GEOSITE,apple@cn",            "\U0001F34E 苹果服务"),
+        ("GEOSITE,apple",               "\U0001F34E 苹果服务"),
+        # --- 媒体聚合 / 内容分类 ---
+        ("GEOSITE,category-media-cn",   "\U0001F30F 国内媒体"),
+        ("GEOSITE,category-media",      "\U0001F30D 国外媒体"),
+        ("GEOSITE,category-porn",       "\U0001F51E 成人内容"),
+    ]
+    platform_rules_yml = "\n".join(f"  - {k},{v}" for k, v in platform_rules)
+
     # ========== 组装 ==========
     final = []
     final.append("# Mihomo config: cryptos exchanges + colored icons")
@@ -250,13 +300,20 @@ def main():
     final.append(groups_yml)
     final.append("")
     final.append("rules:")
-    final.append("  - GEOSITE,private,DIRECT")
-    final.append("  - GEOIP,private,DIRECT")
+    final.append("  # 1) 私有网络")
+    final.append("  - GEOSITE,private,\U0001F3AF 全球直连")
+    final.append("  - GEOIP,private,\U0001F3AF 全球直连,no-resolve")
+    final.append("  # 2) 广告拦截")
     final.append("  - GEOSITE,category-ads-all,\U0001F6D1 广告拦截")
+    final.append("  # 3) 币圈")
     final.append(rules_yml)
+    final.append("  # 4) 平台分流（按具体度排序）")
+    final.append(platform_rules_yml)
+    final.append("  # 5) 国内直连")
     final.append("  - GEOSITE,cn,\U0001F3AF 全球直连")
     final.append("  - GEOIP,cn,\U0001F3AF 全球直连")
-    final.append(f"  - MATCH,\U0001F41F 漏网之鱼")
+    final.append("  # 6) 兜底：走总开关，这样「🚀 节点选择」切什么，所有未匹配流量跟什么")
+    final.append(f"  - MATCH,{G_SELECT}")
     final.append("")
 
     content = "\n".join(final)
@@ -267,6 +324,7 @@ def main():
     print(f"  节点: {len(renamed)}")
     print(f"  分组: {len(groups)}")
     print(f"  币圈规则: {len(crypto_rules)}")
+    print(f"  平台规则: {len(platform_rules)}")
 
 
 if __name__ == "__main__":
