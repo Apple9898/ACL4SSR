@@ -6,13 +6,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 2
   type: vless
   server: 149.104.5.141
@@ -20,13 +20,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 3
   type: vless
   server: 122.10.119.252
@@ -34,13 +34,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 4
   type: vless
   server: 43.161.253.137
@@ -48,13 +48,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 5
   type: vless
   server: 103.143.81.178
@@ -62,13 +62,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 6
   type: vless
   server: 103.143.81.222
@@ -76,13 +76,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 7
   type: vless
   server: 167.148.203.70
@@ -90,13 +90,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 8
   type: vless
   server: 45.136.12.128
@@ -104,13 +104,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 9
   type: vless
   server: 58.176.95.46
@@ -118,13 +118,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 10
   type: vless
   server: 172.67.193.64
@@ -132,13 +132,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 11
   type: vless
   server: 104.21.46.45
@@ -146,13 +146,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 12
   type: vless
   server: 104.18.20.9
@@ -160,13 +160,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 13
   type: vless
   server: 104.26.9.254
@@ -174,13 +174,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 14
   type: vless
   server: 2.27.132.136
@@ -188,13 +188,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 15
   type: vless
   server: 172.67.76.219
@@ -202,13 +202,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 16
   type: vless
   server: 2.27.109.236
@@ -216,13 +216,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 17
   type: vless
   server: 172.67.202.171
@@ -230,13 +230,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 18
   type: vless
   server: 104.21.35.108
@@ -244,13 +244,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 19
   type: vless
   server: 172.67.195.204
@@ -258,13 +258,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 20
   type: vless
   server: 2.27.109.35
@@ -272,13 +272,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇹🇼 TW
   type: vless
   server: 140.115.53.51
@@ -286,13 +286,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇹🇼 TW 2
   type: vless
   server: 140.235.39.162
@@ -300,13 +300,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇹🇼 TW 3
   type: vless
   server: 83.147.15.84
@@ -314,13 +314,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇹🇼 TW 4
   type: vless
   server: 141.11.86.150
@@ -328,13 +328,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP
   type: vless
   server: 103.68.223.47
@@ -342,13 +342,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 2
   type: vless
   server: 177.2.187.28
@@ -356,13 +356,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 3
   type: vless
   server: 69.8.131.28
@@ -370,13 +370,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 4
   type: vless
   server: 175.41.232.194
@@ -384,13 +384,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 5
   type: vless
   server: 13.115.139.162
@@ -398,13 +398,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 6
   type: vless
   server: 3.112.67.101
@@ -412,13 +412,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 7
   type: vless
   server: 13.114.101.22
@@ -426,13 +426,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 8
   type: vless
   server: 52.197.247.0
@@ -440,13 +440,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 9
   type: vless
   server: 13.231.172.130
@@ -454,13 +454,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 10
   type: vless
   server: 162.4.194.35
@@ -468,13 +468,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 11
   type: vless
   server: 103.201.130.126
@@ -482,13 +482,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 12
   type: vless
   server: 45.8.173.253
@@ -496,13 +496,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 13
   type: vless
   server: 45.78.58.239
@@ -510,13 +510,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 14
   type: vless
   server: 154.19.187.141
@@ -524,13 +524,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 15
   type: vless
   server: 154.19.187.5
@@ -538,13 +538,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 16
   type: vless
   server: 14.137.235.154
@@ -552,13 +552,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 17
   type: vless
   server: 126.217.78.118
@@ -566,13 +566,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 18
   type: vless
   server: 60.130.209.253
@@ -580,13 +580,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 19
   type: vless
   server: 74.113.96.69
@@ -594,13 +594,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 20
   type: vless
   server: 156.154.245.83
@@ -608,13 +608,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US
   type: vless
   server: 8.134.220.58
@@ -622,13 +622,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 2
   type: vless
   server: 8.217.117.88
@@ -636,13 +636,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 3
   type: vless
   server: 47.57.181.17
@@ -650,13 +650,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 4
   type: vless
   server: 220.118.83.101
@@ -664,13 +664,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 5
   type: vless
   server: 188.255.157.177
@@ -678,13 +678,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 6
   type: vless
   server: 68.166.252.14
@@ -692,13 +692,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 7
   type: vless
   server: 192.6.161.42
@@ -706,13 +706,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 8
   type: vless
   server: 154.9.243.154
@@ -720,13 +720,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 9
   type: vless
   server: 179.255.136.73
@@ -734,13 +734,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 10
   type: vless
   server: 179.253.241.115
@@ -748,13 +748,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 11
   type: vless
   server: 179.255.101.54
@@ -762,13 +762,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 12
   type: vless
   server: 179.255.123.207
@@ -776,13 +776,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 13
   type: vless
   server: 179.255.103.81
@@ -790,13 +790,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 14
   type: vless
   server: 216.36.80.137
@@ -804,13 +804,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 15
   type: vless
   server: 23.246.154.17
@@ -818,13 +818,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 16
   type: vless
   server: 154.17.16.219
@@ -832,13 +832,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 17
   type: vless
   server: 45.59.128.171
@@ -846,13 +846,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 18
   type: vless
   server: 131.143.180.91
@@ -860,13 +860,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 19
   type: vless
   server: 179.255.115.39
@@ -874,13 +874,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 20
   type: vless
   server: 179.255.127.43
@@ -888,13 +888,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇰🇷 KR
   type: vless
   server: 123.111.169.70
@@ -902,13 +902,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇰🇷 KR 2
   type: vless
   server: 140.245.70.145
@@ -916,13 +916,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇰🇷 KR 3
   type: vless
   server: 140.238.8.92
@@ -930,13 +930,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇰🇷 KR 4
   type: vless
   server: 131.186.16.166
@@ -944,13 +944,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇰🇷 KR 5
   type: vless
   server: 132.145.81.117
@@ -958,13 +958,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇰🇷 KR 6
   type: vless
   server: 193.122.119.241
@@ -972,13 +972,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇰🇷 KR 7
   type: vless
   server: 193.122.115.184
@@ -986,13 +986,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇰🇷 KR 8
   type: vless
   server: 131.186.25.156
@@ -1000,13 +1000,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇰🇷 KR 9
   type: vless
   server: 152.70.237.30
@@ -1014,13 +1014,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇰🇷 KR 10
   type: vless
   server: 152.70.253.44
@@ -1028,13 +1028,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇰🇷 KR 11
   type: vless
   server: 146.56.188.74
@@ -1042,13 +1042,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇰🇷 KR 12
   type: vless
   server: 193.123.236.206
@@ -1056,13 +1056,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇰🇷 KR 13
   type: vless
   server: 132.145.91.135
@@ -1070,13 +1070,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇰🇷 KR 14
   type: vless
   server: 152.70.253.84
@@ -1084,13 +1084,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇰🇷 KR 15
   type: vless
   server: 158.247.220.241
@@ -1098,13 +1098,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇰🇷 KR 16
   type: vless
   server: 130.94.29.155
@@ -1112,13 +1112,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇰🇷 KR 17
   type: vless
   server: 64.176.230.50
@@ -1126,13 +1126,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇰🇷 KR 18
   type: vless
   server: 141.164.44.60
@@ -1140,13 +1140,13 @@ proxies:
   uuid: 078c07a7-a381-4bec-8e3a-e723aed8df55
   udp: true
   tls: true
-  servername: emdd.deepseekhermes.dpdns.org
+  servername: aiabc.aixxxx.dpdns.org
   client-fingerprint: random
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: emdd.deepseekhermes.dpdns.org
+      Host: aiabc.aixxxx.dpdns.org
 - name: 🇸🇬 SG
   type: vless
   server: icook.tw
