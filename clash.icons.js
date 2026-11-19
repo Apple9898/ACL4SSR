@@ -19,7 +19,7 @@ function main(config, profileName) {
     "♻️ 自动选择": "qure_Auto.png",
     "🔯 故障转移": "qure_ULB.png",
     "🔮 负载均衡": "qure_Round_Robin.png",
-    "💰 数字货币": "qure_Cryptocurrency.png",
+    "💰 数字货币": "btc.png",
     "🤖 Ai平台": "qure_AI.png",
     "🤖 Claude": "sins_Claude.png",
     "🤖 OpenAI": "mini_OpenAI.png",
@@ -59,8 +59,8 @@ function main(config, profileName) {
 
   // 兜底: 按关键词模糊匹配（无精确匹配时）
   const KEYWORD = [
-    ["币", "qure_Cryptocurrency.png"],
-    ["加密", "qure_Cryptocurrency.png"],
+    ["币", "btc.png"],
+    ["加密", "btc.png"],
     ["HK", "mini_HK.png"],
     ["香港", "mini_HK.png"],
     ["JP", "mini_JP.png"],

@@ -183,7 +183,7 @@ def main():
                         "\u267B\uFE0F 自动选择", "\U0001F680 手动切换", "DIRECT"]
 
     bz = [
-        ("\U0001F4B0 数字货币", "qure_Cryptocurrency.png"),
+        ("\U0001F4B0 数字货币", "btc.png"),
         ("\U0001F916 Ai平台", "qure_AI.png"),
         ("\U0001F916 Claude", "sins_Claude.png"),
         ("\U0001F916 OpenAI", "mini_OpenAI.png"),
