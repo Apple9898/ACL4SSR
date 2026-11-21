@@ -1,1155 +1,7 @@
 proxies:
-- name: 🇭🇰 HK
-  type: vless
-  server: 38.55.192.142
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇭🇰 HK 2
-  type: vless
-  server: 149.104.5.141
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇭🇰 HK 3
-  type: vless
-  server: 122.10.119.252
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇭🇰 HK 4
-  type: vless
-  server: 43.161.253.137
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇭🇰 HK 5
-  type: vless
-  server: 103.143.81.178
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇭🇰 HK 6
-  type: vless
-  server: 103.143.81.222
-  port: 2053
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇭🇰 HK 7
-  type: vless
-  server: 167.148.203.70
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇭🇰 HK 8
-  type: vless
-  server: 45.136.12.128
-  port: 8443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇭🇰 HK 9
-  type: vless
-  server: 58.176.95.46
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇭🇰 HK 10
-  type: vless
-  server: 172.67.193.64
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇭🇰 HK 11
-  type: vless
-  server: 104.21.46.45
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇭🇰 HK 12
-  type: vless
-  server: 104.18.20.9
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇭🇰 HK 13
-  type: vless
-  server: 104.26.9.254
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇭🇰 HK 14
-  type: vless
-  server: 2.27.132.136
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇭🇰 HK 15
-  type: vless
-  server: 172.67.76.219
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇭🇰 HK 16
-  type: vless
-  server: 2.27.109.236
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇭🇰 HK 17
-  type: vless
-  server: 172.67.202.171
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇭🇰 HK 18
-  type: vless
-  server: 104.21.35.108
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇭🇰 HK 19
-  type: vless
-  server: 172.67.195.204
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇭🇰 HK 20
-  type: vless
-  server: 2.27.109.35
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇹🇼 TW
-  type: vless
-  server: 140.115.53.51
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇹🇼 TW 2
-  type: vless
-  server: 140.235.39.162
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇹🇼 TW 3
-  type: vless
-  server: 83.147.15.84
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇹🇼 TW 4
-  type: vless
-  server: 141.11.86.150
-  port: 8443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇯🇵 JP
-  type: vless
-  server: 103.68.223.47
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇯🇵 JP 2
-  type: vless
-  server: 177.2.187.28
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇯🇵 JP 3
-  type: vless
-  server: 69.8.131.28
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇯🇵 JP 4
-  type: vless
-  server: 175.41.232.194
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇯🇵 JP 5
-  type: vless
-  server: 13.115.139.162
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇯🇵 JP 6
-  type: vless
-  server: 3.112.67.101
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇯🇵 JP 7
-  type: vless
-  server: 13.114.101.22
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇯🇵 JP 8
-  type: vless
-  server: 52.197.247.0
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇯🇵 JP 9
-  type: vless
-  server: 13.231.172.130
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇯🇵 JP 10
-  type: vless
-  server: 162.4.194.35
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇯🇵 JP 11
-  type: vless
-  server: 103.201.130.126
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇯🇵 JP 12
-  type: vless
-  server: 45.8.173.253
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇯🇵 JP 13
-  type: vless
-  server: 45.78.58.239
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇯🇵 JP 14
-  type: vless
-  server: 154.19.187.141
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇯🇵 JP 15
-  type: vless
-  server: 154.19.187.5
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇯🇵 JP 16
-  type: vless
-  server: 14.137.235.154
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇯🇵 JP 17
-  type: vless
-  server: 126.217.78.118
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇯🇵 JP 18
-  type: vless
-  server: 60.130.209.253
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇯🇵 JP 19
-  type: vless
-  server: 74.113.96.69
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇯🇵 JP 20
-  type: vless
-  server: 156.154.245.83
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇺🇸 US
-  type: vless
-  server: 8.134.220.58
-  port: 8443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇺🇸 US 2
-  type: vless
-  server: 8.217.117.88
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇺🇸 US 3
-  type: vless
-  server: 47.57.181.17
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇺🇸 US 4
-  type: vless
-  server: 220.118.83.101
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇺🇸 US 5
-  type: vless
-  server: 188.255.157.177
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇺🇸 US 6
-  type: vless
-  server: 68.166.252.14
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇺🇸 US 7
-  type: vless
-  server: 192.6.161.42
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇺🇸 US 8
-  type: vless
-  server: 154.9.243.154
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇺🇸 US 9
-  type: vless
-  server: 179.255.136.73
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇺🇸 US 10
-  type: vless
-  server: 179.253.241.115
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇺🇸 US 11
-  type: vless
-  server: 179.255.101.54
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇺🇸 US 12
-  type: vless
-  server: 179.255.123.207
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇺🇸 US 13
-  type: vless
-  server: 179.255.103.81
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇺🇸 US 14
-  type: vless
-  server: 216.36.80.137
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇺🇸 US 15
-  type: vless
-  server: 23.246.154.17
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇺🇸 US 16
-  type: vless
-  server: 154.17.16.219
-  port: 8443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇺🇸 US 17
-  type: vless
-  server: 45.59.128.171
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇺🇸 US 18
-  type: vless
-  server: 131.143.180.91
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇺🇸 US 19
-  type: vless
-  server: 179.255.115.39
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇺🇸 US 20
-  type: vless
-  server: 179.255.127.43
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇰🇷 KR
-  type: vless
-  server: 123.111.169.70
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇰🇷 KR 2
-  type: vless
-  server: 140.245.70.145
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇰🇷 KR 3
-  type: vless
-  server: 140.238.8.92
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇰🇷 KR 4
-  type: vless
-  server: 131.186.16.166
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇰🇷 KR 5
-  type: vless
-  server: 132.145.81.117
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇰🇷 KR 6
-  type: vless
-  server: 193.122.119.241
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇰🇷 KR 7
-  type: vless
-  server: 193.122.115.184
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇰🇷 KR 8
-  type: vless
-  server: 131.186.25.156
-  port: 2087
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇰🇷 KR 9
-  type: vless
-  server: 152.70.237.30
-  port: 8443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇰🇷 KR 10
-  type: vless
-  server: 152.70.253.44
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇰🇷 KR 11
-  type: vless
-  server: 146.56.188.74
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇰🇷 KR 12
-  type: vless
-  server: 193.123.236.206
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇰🇷 KR 13
-  type: vless
-  server: 132.145.91.135
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇰🇷 KR 14
-  type: vless
-  server: 152.70.253.84
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇰🇷 KR 15
-  type: vless
-  server: 158.247.220.241
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇰🇷 KR 16
-  type: vless
-  server: 130.94.29.155
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
-- name: 🇰🇷 KR 17
-  type: vless
-  server: 64.176.230.50
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc.aixxxx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc.aixxxx.dpdns.org
-- name: 🇰🇷 KR 18
-  type: vless
-  server: 141.164.44.60
-  port: 2053
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
 - name: 🇸🇬 SG
   type: vless
-  server: cdns.doon.eu.org
+  server: singbox.ethw.dpdns.org
   port: 443
   uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
   udp: true
@@ -1163,7 +15,7 @@ proxies:
       Host: singbox.ethw.dpdns.org
 - name: 🇸🇬 SG 2
   type: vless
-  server: cf.0sm.com
+  server: cdn.tzpro.xyz
   port: 443
   uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
   udp: true
@@ -1177,7 +29,7 @@ proxies:
       Host: singbox.ethw.dpdns.org
 - name: 🇸🇬 SG 3
   type: vless
-  server: cf.877771.xyz
+  server: cdns.doon.eu.org
   port: 443
   uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
   udp: true
@@ -1191,7 +43,7 @@ proxies:
       Host: singbox.ethw.dpdns.org
 - name: 🇸🇬 SG 4
   type: vless
-  server: cfip.1323123.xyz
+  server: cf.008500.xyz
   port: 443
   uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
   udp: true
@@ -1205,7 +57,7 @@ proxies:
       Host: singbox.ethw.dpdns.org
 - name: 🇸🇬 SG 5
   type: vless
-  server: cloudflare.182682.xyz
+  server: cf.090227.xyz
   port: 443
   uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
   udp: true
@@ -1219,7 +71,7 @@ proxies:
       Host: singbox.ethw.dpdns.org
 - name: 🇸🇬 SG 6
   type: vless
-  server: icook.tw
+  server: cf.0sm.com
   port: 443
   uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
   udp: true
@@ -1233,7 +85,7 @@ proxies:
       Host: singbox.ethw.dpdns.org
 - name: 🇸🇬 SG 7
   type: vless
-  server: ip.sb
+  server: cf.130519.xyz
   port: 443
   uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
   udp: true
@@ -1247,7 +99,7 @@ proxies:
       Host: singbox.ethw.dpdns.org
 - name: 🇸🇬 SG 8
   type: vless
-  server: japan.com
+  server: cf.877771.xyz
   port: 443
   uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
   udp: true
@@ -1261,7 +113,7 @@ proxies:
       Host: singbox.ethw.dpdns.org
 - name: 🇸🇬 SG 9
   type: vless
-  server: malaysia.com
+  server: cf.877774.xyz
   port: 443
   uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
   udp: true
@@ -1275,7 +127,7 @@ proxies:
       Host: singbox.ethw.dpdns.org
 - name: 🇸🇬 SG 10
   type: vless
-  server: pages.dev
+  server: cfip.1323123.xyz
   port: 443
   uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
   udp: true
@@ -1289,7 +141,7 @@ proxies:
       Host: singbox.ethw.dpdns.org
 - name: 🇸🇬 SG 11
   type: vless
-  server: singapore.com
+  server: cloudflare-ip.mofashi.ltd
   port: 443
   uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
   udp: true
@@ -1303,7 +155,7 @@ proxies:
       Host: singbox.ethw.dpdns.org
 - name: 🇸🇬 SG 12
   type: vless
-  server: time.is
+  server: cloudflare.182682.xyz
   port: 443
   uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
   udp: true
@@ -1317,7 +169,7 @@ proxies:
       Host: singbox.ethw.dpdns.org
 - name: 🇸🇬 SG 13
   type: vless
-  server: www.npmjs.com
+  server: cnamefuckxxs.yuchen.icu
   port: 443
   uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
   udp: true
@@ -1331,6 +183,160 @@ proxies:
       Host: singbox.ethw.dpdns.org
 - name: 🇸🇬 SG 14
   type: vless
+  server: icook.hk
+  port: 443
+  uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
+  udp: true
+  tls: true
+  servername: singbox.ethw.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl-90da65f9
+    headers:
+      Host: singbox.ethw.dpdns.org
+- name: 🇸🇬 SG 15
+  type: vless
+  server: icook.tw
+  port: 443
+  uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
+  udp: true
+  tls: true
+  servername: singbox.ethw.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl-90da65f9
+    headers:
+      Host: singbox.ethw.dpdns.org
+- name: 🇸🇬 SG 16
+  type: vless
+  server: ip.164746.xyz
+  port: 443
+  uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
+  udp: true
+  tls: true
+  servername: singbox.ethw.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl-90da65f9
+    headers:
+      Host: singbox.ethw.dpdns.org
+- name: 🇸🇬 SG 17
+  type: vless
+  server: japan.com
+  port: 443
+  uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
+  udp: true
+  tls: true
+  servername: singbox.ethw.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl-90da65f9
+    headers:
+      Host: singbox.ethw.dpdns.org
+- name: 🇸🇬 SG 18
+  type: vless
+  server: malaysia.com
+  port: 443
+  uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
+  udp: true
+  tls: true
+  servername: singbox.ethw.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl-90da65f9
+    headers:
+      Host: singbox.ethw.dpdns.org
+- name: 🇸🇬 SG 19
+  type: vless
+  server: mfa.gov.ua
+  port: 443
+  uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
+  udp: true
+  tls: true
+  servername: singbox.ethw.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl-90da65f9
+    headers:
+      Host: singbox.ethw.dpdns.org
+- name: 🇸🇬 SG 20
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
+  udp: true
+  tls: true
+  servername: singbox.ethw.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl-90da65f9
+    headers:
+      Host: singbox.ethw.dpdns.org
+- name: 🇸🇬 SG 21
+  type: vless
+  server: singapore.com
+  port: 443
+  uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
+  udp: true
+  tls: true
+  servername: singbox.ethw.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl-90da65f9
+    headers:
+      Host: singbox.ethw.dpdns.org
+- name: 🇸🇬 SG 22
+  type: vless
+  server: store.ubi.com
+  port: 443
+  uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
+  udp: true
+  tls: true
+  servername: singbox.ethw.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl-90da65f9
+    headers:
+      Host: singbox.ethw.dpdns.org
+- name: 🇸🇬 SG 23
+  type: vless
+  server: sub.danfeng.eu.org
+  port: 443
+  uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
+  udp: true
+  tls: true
+  servername: singbox.ethw.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl-90da65f9
+    headers:
+      Host: singbox.ethw.dpdns.org
+- name: 🇸🇬 SG 24
+  type: vless
+  server: www.visa.co.jp
+  port: 443
+  uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
+  udp: true
+  tls: true
+  servername: singbox.ethw.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl-90da65f9
+    headers:
+      Host: singbox.ethw.dpdns.org
+- name: 🇸🇬 SG 25
+  type: vless
   server: www.visa.com.hk
   port: 443
   uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
@@ -1343,6 +349,1182 @@ proxies:
     path: /vl-90da65f9
     headers:
       Host: singbox.ethw.dpdns.org
+- name: 🇸🇬 SG 26
+  type: vless
+  server: www.visa.com.sg
+  port: 443
+  uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
+  udp: true
+  tls: true
+  servername: singbox.ethw.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl-90da65f9
+    headers:
+      Host: singbox.ethw.dpdns.org
+- name: 🇸🇬 SG 27
+  type: vless
+  server: www.visa.com.tw
+  port: 443
+  uuid: 90da65f9-5892-4eac-b55c-486e0a536b59
+  udp: true
+  tls: true
+  servername: singbox.ethw.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl-90da65f9
+    headers:
+      Host: singbox.ethw.dpdns.org
+- name: 🇭🇰 HK
+  type: vless
+  server: 38.55.192.142
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇭🇰 HK 2
+  type: vless
+  server: 149.104.5.141
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇭🇰 HK 3
+  type: vless
+  server: 122.10.119.252
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇭🇰 HK 4
+  type: vless
+  server: 43.161.253.137
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇭🇰 HK 5
+  type: vless
+  server: 103.143.81.178
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇭🇰 HK 6
+  type: vless
+  server: 103.143.81.222
+  port: 2053
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇭🇰 HK 7
+  type: vless
+  server: 167.148.203.70
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇭🇰 HK 8
+  type: vless
+  server: 45.136.12.128
+  port: 8443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇭🇰 HK 9
+  type: vless
+  server: 58.176.95.46
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇭🇰 HK 10
+  type: vless
+  server: 172.67.193.64
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇭🇰 HK 11
+  type: vless
+  server: 104.21.46.45
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇭🇰 HK 12
+  type: vless
+  server: 104.18.20.9
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇭🇰 HK 13
+  type: vless
+  server: 104.26.9.254
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇭🇰 HK 14
+  type: vless
+  server: 2.27.132.136
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇭🇰 HK 15
+  type: vless
+  server: 172.67.76.219
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇭🇰 HK 16
+  type: vless
+  server: 2.27.109.236
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇭🇰 HK 17
+  type: vless
+  server: 172.67.202.171
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇭🇰 HK 18
+  type: vless
+  server: 104.21.35.108
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇭🇰 HK 19
+  type: vless
+  server: 172.67.195.204
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇭🇰 HK 20
+  type: vless
+  server: 2.27.109.35
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇹🇼 TW
+  type: vless
+  server: 140.115.53.51
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇹🇼 TW 2
+  type: vless
+  server: 140.235.39.162
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇹🇼 TW 3
+  type: vless
+  server: 83.147.15.84
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇹🇼 TW 4
+  type: vless
+  server: 141.11.86.150
+  port: 8443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇯🇵 JP
+  type: vless
+  server: 103.68.223.47
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇯🇵 JP 2
+  type: vless
+  server: 177.2.187.28
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇯🇵 JP 3
+  type: vless
+  server: 69.8.131.28
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇯🇵 JP 4
+  type: vless
+  server: 175.41.232.194
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇯🇵 JP 5
+  type: vless
+  server: 13.115.139.162
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇯🇵 JP 6
+  type: vless
+  server: 3.112.67.101
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇯🇵 JP 7
+  type: vless
+  server: 13.114.101.22
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇯🇵 JP 8
+  type: vless
+  server: 52.197.247.0
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇯🇵 JP 9
+  type: vless
+  server: 13.231.172.130
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇯🇵 JP 10
+  type: vless
+  server: 162.4.194.35
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇯🇵 JP 11
+  type: vless
+  server: 103.201.130.126
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇯🇵 JP 12
+  type: vless
+  server: 45.8.173.253
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇯🇵 JP 13
+  type: vless
+  server: 45.78.58.239
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇯🇵 JP 14
+  type: vless
+  server: 154.19.187.141
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇯🇵 JP 15
+  type: vless
+  server: 154.19.187.5
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇯🇵 JP 16
+  type: vless
+  server: 14.137.235.154
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇯🇵 JP 17
+  type: vless
+  server: 126.217.78.118
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇯🇵 JP 18
+  type: vless
+  server: 60.130.209.253
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇯🇵 JP 19
+  type: vless
+  server: 74.113.96.69
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇯🇵 JP 20
+  type: vless
+  server: 156.154.245.83
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇺🇸 US
+  type: vless
+  server: 8.134.220.58
+  port: 8443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇺🇸 US 2
+  type: vless
+  server: 8.217.117.88
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇺🇸 US 3
+  type: vless
+  server: 47.57.181.17
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇺🇸 US 4
+  type: vless
+  server: 220.118.83.101
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇺🇸 US 5
+  type: vless
+  server: 188.255.157.177
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇺🇸 US 6
+  type: vless
+  server: 68.166.252.14
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇺🇸 US 7
+  type: vless
+  server: 192.6.161.42
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇺🇸 US 8
+  type: vless
+  server: 154.9.243.154
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇺🇸 US 9
+  type: vless
+  server: 179.255.136.73
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇺🇸 US 10
+  type: vless
+  server: 179.253.241.115
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇺🇸 US 11
+  type: vless
+  server: 179.255.101.54
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇺🇸 US 12
+  type: vless
+  server: 179.255.123.207
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇺🇸 US 13
+  type: vless
+  server: 179.255.103.81
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇺🇸 US 14
+  type: vless
+  server: 216.36.80.137
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇺🇸 US 15
+  type: vless
+  server: 23.246.154.17
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇺🇸 US 16
+  type: vless
+  server: 154.17.16.219
+  port: 8443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇺🇸 US 17
+  type: vless
+  server: 45.59.128.171
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇺🇸 US 18
+  type: vless
+  server: 131.143.180.91
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇺🇸 US 19
+  type: vless
+  server: 179.255.115.39
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇺🇸 US 20
+  type: vless
+  server: 179.255.127.43
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇰🇷 KR
+  type: vless
+  server: 123.111.169.70
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇰🇷 KR 2
+  type: vless
+  server: 140.245.70.145
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇰🇷 KR 3
+  type: vless
+  server: 140.238.8.92
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇰🇷 KR 4
+  type: vless
+  server: 131.186.16.166
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇰🇷 KR 5
+  type: vless
+  server: 132.145.81.117
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇰🇷 KR 6
+  type: vless
+  server: 193.122.119.241
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇰🇷 KR 7
+  type: vless
+  server: 193.122.115.184
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇰🇷 KR 8
+  type: vless
+  server: 131.186.25.156
+  port: 2087
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇰🇷 KR 9
+  type: vless
+  server: 152.70.237.30
+  port: 8443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇰🇷 KR 10
+  type: vless
+  server: 152.70.253.44
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇰🇷 KR 11
+  type: vless
+  server: 146.56.188.74
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇰🇷 KR 12
+  type: vless
+  server: 193.123.236.206
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇰🇷 KR 13
+  type: vless
+  server: 132.145.91.135
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇰🇷 KR 14
+  type: vless
+  server: 152.70.253.84
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇰🇷 KR 15
+  type: vless
+  server: 158.247.220.241
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇰🇷 KR 16
+  type: vless
+  server: 130.94.29.155
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
+- name: 🇰🇷 KR 17
+  type: vless
+  server: 64.176.230.50
+  port: 443
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc-byl.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc-byl.pages.dev
+- name: 🇰🇷 KR 18
+  type: vless
+  server: 141.164.44.60
+  port: 2053
+  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
+  udp: true
+  tls: true
+  servername: aiabc.aixxxx.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: aiabc.aixxxx.dpdns.org
 proxy-groups:
 - name: 🚀 节点选择
   type: fallback
@@ -1363,9 +1545,12 @@ proxy-groups:
   interval: 300
   tolerance: 150
 - name: 🚀 手动切换
-  type: select
+  type: fallback
   icon: https://testingcf.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/mini_Available.png
   include-all: true
+  url: https://www.apple.com/library/test/success.html
+  interval: 300
+  tolerance: 150
 - name: ♻️ 自动选择
   type: url-test
   icon: https://testingcf.jsdelivr.net/gh/Apple9898/ACL4SSR@main/icons/qure_Auto.png
