@@ -10,6 +10,11 @@
 ;增强国外GFW：支持
 
 ;设置规则标志位
+ruleset=☁️ Cloudflare,[]DOMAIN-SUFFIX,cloudflare.com
+ruleset=☁️ Cloudflare,[]DOMAIN-SUFFIX,workers.dev
+ruleset=☁️ Cloudflare,[]DOMAIN-SUFFIX,cfargotunnel.com
+ruleset=☁️ Cloudflare,[]DOMAIN-SUFFIX,pagecdn.io
+ruleset=☁️ Cloudflare,[]DOMAIN-SUFFIX,cloudflareinsights.com
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
