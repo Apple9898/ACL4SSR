@@ -1921,6 +1921,11 @@ proxy-groups:
   interval: 300
   tolerance: 150
 rules:
+- DOMAIN-SUFFIX,cloudflare.com,☁️ Cloudflare
+- DOMAIN-SUFFIX,workers.dev,☁️ Cloudflare
+- DOMAIN-SUFFIX,cfargotunnel.com,☁️ Cloudflare
+- DOMAIN-SUFFIX,pagecdn.io,☁️ Cloudflare
+- DOMAIN-SUFFIX,cloudflareinsights.com,☁️ Cloudflare
 - GEOSITE,private,🎯 全球直连
 - GEOIP,private,🎯 全球直连,no-resolve
 - GEOSITE,category-ads-all,🛑 广告拦截
