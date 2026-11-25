@@ -379,8 +379,8 @@ proxies:
       Host: singbox.ethw.dpdns.org
 - name: 🇭🇰 HK
   type: vless
-  server: 43.161.233.40
-  port: 8443
+  server: 43.161.253.137
+  port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
   tls: true
@@ -393,8 +393,8 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 2
   type: vless
-  server: 122.10.119.252
-  port: 443
+  server: 43.161.233.40
+  port: 8443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
   tls: true
@@ -407,7 +407,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇭🇰 HK 3
   type: vless
-  server: 38.55.192.169
+  server: 149.104.6.15
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -421,8 +421,8 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 4
   type: vless
-  server: 149.104.29.188
-  port: 443
+  server: 45.136.12.128
+  port: 8443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
   tls: true
@@ -435,7 +435,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇭🇰 HK 5
   type: vless
-  server: 45.136.13.92
+  server: 38.55.195.98
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -449,7 +449,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 6
   type: vless
-  server: 149.104.27.213
+  server: 122.10.119.252
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -477,7 +477,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 8
   type: vless
-  server: 167.148.203.107
+  server: 38.55.192.169
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -491,7 +491,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇭🇰 HK 9
   type: vless
-  server: 103.143.81.178
+  server: 149.104.27.213
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -505,7 +505,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 10
   type: vless
-  server: 151.243.229.150
+  server: 45.136.13.92
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -519,7 +519,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇭🇰 HK 11
   type: vless
-  server: 45.152.65.100
+  server: 38.207.177.204
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -533,7 +533,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 12
   type: vless
-  server: 68.64.180.218
+  server: 193.134.209.165
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -547,7 +547,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇭🇰 HK 13
   type: vless
-  server: 193.134.209.165
+  server: 167.148.203.107
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -561,7 +561,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 14
   type: vless
-  server: 104.18.18.66
+  server: 103.97.200.42
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -575,7 +575,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇭🇰 HK 15
   type: vless
-  server: 172.67.78.198
+  server: 167.148.203.70
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -589,7 +589,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 16
   type: vless
-  server: 104.26.13.63
+  server: 151.243.229.150
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -603,7 +603,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇭🇰 HK 17
   type: vless
-  server: 104.18.23.53
+  server: 68.64.180.218
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -617,7 +617,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 18
   type: vless
-  server: 104.20.26.63
+  server: 45.152.65.100
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -631,7 +631,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇭🇰 HK 19
   type: vless
-  server: 104.21.39.152
+  server: 58.176.95.46
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -645,7 +645,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇭🇰 HK 20
   type: vless
-  server: 172.67.66.76
+  server: 162.159.154.23
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -659,7 +659,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇹🇼 TW
   type: vless
-  server: 140.115.53.51
+  server: 45.207.158.129
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -673,7 +673,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇹🇼 TW 2
   type: vless
-  server: 45.207.158.129
+  server: 140.115.53.51
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -687,7 +687,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇹🇼 TW 3
   type: vless
-  server: 166.0.199.127
+  server: 85.237.206.7
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -701,7 +701,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇹🇼 TW 4
   type: vless
-  server: 85.237.206.7
+  server: 140.235.39.99
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -715,7 +715,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇹🇼 TW 5
   type: vless
-  server: 213.210.4.46
+  server: 154.40.60.61
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -729,7 +729,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇹🇼 TW 6
   type: vless
-  server: 140.235.39.99
+  server: 83.147.15.84
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -743,7 +743,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇹🇼 TW 7
   type: vless
-  server: 69.8.139.91
+  server: 166.0.199.127
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -757,7 +757,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇹🇼 TW 8
   type: vless
-  server: 154.40.60.61
+  server: 69.8.139.91
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -771,7 +771,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇹🇼 TW 9
   type: vless
-  server: 83.147.15.84
+  server: 213.210.4.46
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -799,7 +799,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇯🇵 JP
   type: vless
-  server: 45.192.202.199
+  server: 147.79.20.177
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -813,7 +813,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 2
   type: vless
-  server: 147.79.20.177
+  server: 147.79.20.191
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -827,8 +827,8 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇯🇵 JP 3
   type: vless
-  server: 64.204.49.136
-  port: 8443
+  server: 126.217.78.118
+  port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
   tls: true
@@ -841,7 +841,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 4
   type: vless
-  server: 200.180.163.38
+  server: 178.239.117.27
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -855,7 +855,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇯🇵 JP 5
   type: vless
-  server: 126.217.78.118
+  server: 103.238.129.130
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -869,7 +869,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 6
   type: vless
-  server: 103.238.129.130
+  server: 69.8.131.28
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -883,7 +883,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇯🇵 JP 7
   type: vless
-  server: 177.2.187.28
+  server: 140.235.37.72
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -897,7 +897,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 8
   type: vless
-  server: 14.137.235.154
+  server: 45.192.206.158
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -911,7 +911,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇯🇵 JP 9
   type: vless
-  server: 45.192.206.158
+  server: 14.137.235.154
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -925,7 +925,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 10
   type: vless
-  server: 45.78.58.239
+  server: 74.113.96.69
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -939,7 +939,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇯🇵 JP 11
   type: vless
-  server: 13.115.139.162
+  server: 177.2.187.28
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -953,7 +953,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 12
   type: vless
-  server: 13.230.247.88
+  server: 60.130.209.253
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -967,7 +967,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇯🇵 JP 13
   type: vless
-  server: 3.112.67.101
+  server: 64.204.48.68
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -981,7 +981,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 14
   type: vless
-  server: 175.41.232.194
+  server: 45.192.202.199
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -995,7 +995,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇯🇵 JP 15
   type: vless
-  server: 13.231.172.130
+  server: 200.180.163.38
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1009,7 +1009,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 16
   type: vless
-  server: 35.78.169.69
+  server: 175.41.232.194
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1023,7 +1023,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇯🇵 JP 17
   type: vless
-  server: 13.196.179.169
+  server: 57.180.48.227
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1037,7 +1037,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 18
   type: vless
-  server: 35.74.79.196
+  server: 13.231.221.179
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1051,7 +1051,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇯🇵 JP 19
   type: vless
-  server: 13.231.221.179
+  server: 54.199.129.8
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1065,7 +1065,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇯🇵 JP 20
   type: vless
-  server: 60.130.209.253
+  server: 13.115.139.162
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1079,8 +1079,8 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇺🇸 US
   type: vless
-  server: 8.134.220.58
-  port: 8443
+  server: 45.192.223.48
+  port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
   tls: true
@@ -1093,7 +1093,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 2
   type: vless
-  server: 47.57.181.17
+  server: 45.192.223.58
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1107,7 +1107,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇺🇸 US 3
   type: vless
-  server: 104.17.132.107
+  server: 45.192.223.112
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1121,7 +1121,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 4
   type: vless
-  server: 104.17.156.39
+  server: 45.192.223.12
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1135,7 +1135,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇺🇸 US 5
   type: vless
-  server: 77.73.8.67
+  server: 45.192.223.18
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1149,7 +1149,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 6
   type: vless
-  server: 104.17.132.128
+  server: 45.192.223.20
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1163,7 +1163,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇺🇸 US 7
   type: vless
-  server: 104.17.137.117
+  server: 45.192.223.34
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1177,7 +1177,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 8
   type: vless
-  server: 104.17.143.240
+  server: 45.192.223.98
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1191,7 +1191,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇺🇸 US 9
   type: vless
-  server: 104.17.159.154
+  server: 45.192.223.114
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1205,7 +1205,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 10
   type: vless
-  server: 104.17.137.236
+  server: 45.192.223.120
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1219,7 +1219,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇺🇸 US 11
   type: vless
-  server: 104.17.128.255
+  server: 45.192.223.131
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1233,7 +1233,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 12
   type: vless
-  server: 87.251.79.39
+  server: 45.192.223.189
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1247,7 +1247,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇺🇸 US 13
   type: vless
-  server: 31.59.136.122
+  server: 45.192.223.226
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1261,7 +1261,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 14
   type: vless
-  server: 104.17.150.72
+  server: 45.192.223.231
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1275,7 +1275,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇺🇸 US 15
   type: vless
-  server: 104.17.155.19
+  server: 45.192.224.16
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1289,7 +1289,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 16
   type: vless
-  server: 104.17.128.9
+  server: 45.192.224.36
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1303,7 +1303,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇺🇸 US 17
   type: vless
-  server: 144.225.246.15
+  server: 45.192.224.79
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1317,7 +1317,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 18
   type: vless
-  server: 192.6.161.42
+  server: 45.192.224.105
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1331,7 +1331,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇺🇸 US 19
   type: vless
-  server: 144.225.246.20
+  server: 45.192.224.132
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1345,7 +1345,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇺🇸 US 20
   type: vless
-  server: 104.17.150.187
+  server: 45.192.224.197
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1359,8 +1359,8 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇰🇷 KR
   type: vless
-  server: 172.65.90.32
-  port: 443
+  server: 168.107.40.4
+  port: 8443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
   tls: true
@@ -1373,8 +1373,8 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇰🇷 KR 2
   type: vless
-  server: 152.67.210.234
-  port: 443
+  server: 152.70.237.30
+  port: 8443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
   tls: true
@@ -1387,7 +1387,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇰🇷 KR 3
   type: vless
-  server: 132.145.81.117
+  server: 146.56.151.92
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1415,8 +1415,8 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇰🇷 KR 5
   type: vless
-  server: 152.70.237.30
-  port: 8443
+  server: 146.56.188.74
+  port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
   tls: true
@@ -1443,7 +1443,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇰🇷 KR 7
   type: vless
-  server: 193.122.119.241
+  server: 132.145.81.117
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1457,7 +1457,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇰🇷 KR 8
   type: vless
-  server: 146.56.188.74
+  server: 152.70.253.84
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1471,7 +1471,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇰🇷 KR 9
   type: vless
-  server: 146.56.151.92
+  server: 193.122.119.241
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1485,7 +1485,7 @@ proxies:
       Host: aiabc.aixxxx.dpdns.org
 - name: 🇰🇷 KR 10
   type: vless
-  server: 152.70.253.84
+  server: 64.176.230.50
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1499,7 +1499,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇰🇷 KR 11
   type: vless
-  server: 64.176.230.50
+  server: 158.247.220.241
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1527,7 +1527,7 @@ proxies:
       Host: aiabc-byl.pages.dev
 - name: 🇰🇷 KR 13
   type: vless
-  server: 158.247.220.241
+  server: 130.94.29.155
   port: 443
   uuid: cda17504-e203-4dc6-a645-77e0ee95140f
   udp: true
@@ -1539,20 +1539,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: aiabc.aixxxx.dpdns.org
-- name: 🇰🇷 KR 14
-  type: vless
-  server: 130.94.29.155
-  port: 443
-  uuid: cda17504-e203-4dc6-a645-77e0ee95140f
-  udp: true
-  tls: true
-  servername: aiabc-byl.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: aiabc-byl.pages.dev
 proxy-groups:
 - name: 🚀 节点选择
   type: fallback
