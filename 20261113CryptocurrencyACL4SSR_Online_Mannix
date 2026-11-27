@@ -2,6 +2,7 @@
 ;不要随意改变关键字，否则会导致出错
 ;每个分组都带完整国家节点
 ;已优化：节点选择改为 select，并放在第一位
+;方法一：FINAL 指向节点选择
 
 ;去广告：支持
 ;自动测速：支持
@@ -173,7 +174,8 @@ ruleset=💰 数字货币,[]DOMAIN-KEYWORD,bitunix
 ruleset=💰 数字货币,[]DOMAIN-SUFFIX,bitunix.com
 ruleset=💰 数字货币,[]DOMAIN-SUFFIX,bitunix.io
 
-ruleset=🐟 漏网之鱼,[]FINAL
+; ★★★ 方法一：最终兜底走节点选择 ★★★
+ruleset=🚀 节点选择,[]FINAL
 
 ;设置分组标志位
 
